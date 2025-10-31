@@ -1,0 +1,1 @@
+error: [Errno 17] File exists: '/home/alex/AV_Project_2025/repos/User-Interface/ros2_ws/build/maincar/resource/maincar' -> '/home/alex/AV_Project_2025/repos/User-Interface/ros2_ws/install/maincar/share/ament_index/resource_index/packages/maincar'

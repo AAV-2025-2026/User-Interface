@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing maincar.egg-info/PKG-INFO
+writing dependency_links to maincar.egg-info/dependency_links.txt
+writing entry points to maincar.egg-info/entry_points.txt
+writing requirements to maincar.egg-info/requires.txt
+writing top-level names to maincar.egg-info/top_level.txt
+reading manifest file 'maincar.egg-info/SOURCES.txt'
+writing manifest file 'maincar.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/alex/AV_Project_2025/repos/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar.egg-link (link to .)
+Installing ui_test_publish script to /home/alex/AV_Project_2025/repos/User-Interface/ros2_ws/install/maincar/lib/maincar
+
+Installed /home/alex/AV_Project_2025/repos/User-Interface/ros2_ws/build/maincar
+running symlink_data
+error: [Errno 17] File exists: '/home/alex/AV_Project_2025/repos/User-Interface/ros2_ws/build/maincar/resource/maincar' -> '/home/alex/AV_Project_2025/repos/User-Interface/ros2_ws/install/maincar/share/ament_index/resource_index/packages/maincar'
+symbolically linking /home/alex/AV_Project_2025/repos/User-Interface/ros2_ws/build/maincar/resource/maincar -> /home/alex/AV_Project_2025/repos/User-Interface/ros2_ws/install/maincar/share/ament_index/resource_index/packages

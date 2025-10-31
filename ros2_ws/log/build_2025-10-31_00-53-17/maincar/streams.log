@@ -1,0 +1,43 @@
+[0.615s] Invoking command in '/home/alex/AV_Project_2025/repos/User-Interface/ros2_ws/src/maincar': PYTHONPATH=/home/alex/AV_Project_2025/repos/User-Interface/ros2_ws/build/maincar/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alex/AV_Project_2025/repos/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/maincar build --build-base /home/alex/AV_Project_2025/repos/User-Interface/ros2_ws/build/maincar/build install --record /home/alex/AV_Project_2025/repos/User-Interface/ros2_ws/build/maincar/install.log --single-version-externally-managed install_data
+[0.805s] running egg_info
+[0.810s] creating ../../build/maincar/maincar.egg-info
+[0.810s] writing ../../build/maincar/maincar.egg-info/PKG-INFO
+[0.810s] writing dependency_links to ../../build/maincar/maincar.egg-info/dependency_links.txt
+[0.810s] writing entry points to ../../build/maincar/maincar.egg-info/entry_points.txt
+[0.810s] writing requirements to ../../build/maincar/maincar.egg-info/requires.txt
+[0.811s] writing top-level names to ../../build/maincar/maincar.egg-info/top_level.txt
+[0.811s] writing manifest file '../../build/maincar/maincar.egg-info/SOURCES.txt'
+[0.812s] reading manifest file '../../build/maincar/maincar.egg-info/SOURCES.txt'
+[0.813s] writing manifest file '../../build/maincar/maincar.egg-info/SOURCES.txt'
+[0.813s] running build
+[0.813s] running build_py
+[0.813s] creating /home/alex/AV_Project_2025/repos/User-Interface/ros2_ws/build/maincar/build
+[0.813s] creating /home/alex/AV_Project_2025/repos/User-Interface/ros2_ws/build/maincar/build/lib
+[0.814s] creating /home/alex/AV_Project_2025/repos/User-Interface/ros2_ws/build/maincar/build/lib/maincar
+[0.814s] copying maincar/ui_test.py -> /home/alex/AV_Project_2025/repos/User-Interface/ros2_ws/build/maincar/build/lib/maincar
+[0.814s] copying maincar/__init__.py -> /home/alex/AV_Project_2025/repos/User-Interface/ros2_ws/build/maincar/build/lib/maincar
+[0.814s] copying maincar/ui_fetch.py -> /home/alex/AV_Project_2025/repos/User-Interface/ros2_ws/build/maincar/build/lib/maincar
+[0.814s] copying maincar/ui_push.py -> /home/alex/AV_Project_2025/repos/User-Interface/ros2_ws/build/maincar/build/lib/maincar
+[0.815s] running install
+[0.815s] running install_lib
+[0.816s] creating /home/alex/AV_Project_2025/repos/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar
+[0.818s] copying /home/alex/AV_Project_2025/repos/User-Interface/ros2_ws/build/maincar/build/lib/maincar/ui_test.py -> /home/alex/AV_Project_2025/repos/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar
+[0.819s] copying /home/alex/AV_Project_2025/repos/User-Interface/ros2_ws/build/maincar/build/lib/maincar/__init__.py -> /home/alex/AV_Project_2025/repos/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar
+[0.819s] copying /home/alex/AV_Project_2025/repos/User-Interface/ros2_ws/build/maincar/build/lib/maincar/ui_fetch.py -> /home/alex/AV_Project_2025/repos/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar
+[0.819s] copying /home/alex/AV_Project_2025/repos/User-Interface/ros2_ws/build/maincar/build/lib/maincar/ui_push.py -> /home/alex/AV_Project_2025/repos/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar
+[0.819s] byte-compiling /home/alex/AV_Project_2025/repos/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar/ui_test.py to ui_test.cpython-310.pyc
+[0.819s] byte-compiling /home/alex/AV_Project_2025/repos/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar/__init__.py to __init__.cpython-310.pyc
+[0.819s] byte-compiling /home/alex/AV_Project_2025/repos/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar/ui_fetch.py to ui_fetch.cpython-310.pyc
+[0.819s] byte-compiling /home/alex/AV_Project_2025/repos/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar/ui_push.py to ui_push.cpython-310.pyc
+[0.819s] running install_data
+[0.819s] creating /home/alex/AV_Project_2025/repos/User-Interface/ros2_ws/install/maincar/share/ament_index
+[0.819s] creating /home/alex/AV_Project_2025/repos/User-Interface/ros2_ws/install/maincar/share/ament_index/resource_index
+[0.819s] creating /home/alex/AV_Project_2025/repos/User-Interface/ros2_ws/install/maincar/share/ament_index/resource_index/packages
+[0.819s] copying resource/maincar -> /home/alex/AV_Project_2025/repos/User-Interface/ros2_ws/install/maincar/share/ament_index/resource_index/packages
+[0.819s] copying package.xml -> /home/alex/AV_Project_2025/repos/User-Interface/ros2_ws/install/maincar/share/maincar
+[0.819s] running install_egg_info
+[0.821s] Copying ../../build/maincar/maincar.egg-info to /home/alex/AV_Project_2025/repos/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar-0.0.0-py3.10.egg-info
+[0.822s] running install_scripts
+[0.840s] Installing ui_test_publish script to /home/alex/AV_Project_2025/repos/User-Interface/ros2_ws/install/maincar/lib/maincar
+[0.840s] writing list of installed files to '/home/alex/AV_Project_2025/repos/User-Interface/ros2_ws/build/maincar/install.log'
+[0.865s] Invoked command in '/home/alex/AV_Project_2025/repos/User-Interface/ros2_ws/src/maincar' returned '0': PYTHONPATH=/home/alex/AV_Project_2025/repos/User-Interface/ros2_ws/build/maincar/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alex/AV_Project_2025/repos/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/maincar build --build-base /home/alex/AV_Project_2025/repos/User-Interface/ros2_ws/build/maincar/build install --record /home/alex/AV_Project_2025/repos/User-Interface/ros2_ws/build/maincar/install.log --single-version-externally-managed install_data

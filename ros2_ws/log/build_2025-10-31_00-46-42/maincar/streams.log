@@ -1,0 +1,19 @@
+[0.567s] Invoking command in '/home/alex/AV Project 2025/repos/User-Interface/ros2_ws/build/maincar': PYTHONPATH=/home/alex/AV Project 2025/repos/User-Interface/ros2_ws/build/maincar/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alex/AV Project 2025/repos/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/alex/AV Project 2025/repos/User-Interface/ros2_ws/build/maincar/build --no-deps symlink_data --force
+[0.804s] running develop
+[0.961s] running egg_info
+[0.963s] writing maincar.egg-info/PKG-INFO
+[0.963s] writing dependency_links to maincar.egg-info/dependency_links.txt
+[0.963s] writing entry points to maincar.egg-info/entry_points.txt
+[0.963s] writing requirements to maincar.egg-info/requires.txt
+[0.963s] writing top-level names to maincar.egg-info/top_level.txt
+[0.964s] reading manifest file 'maincar.egg-info/SOURCES.txt'
+[0.965s] writing manifest file 'maincar.egg-info/SOURCES.txt'
+[0.966s] running build_ext
+[0.967s] Creating /home/alex/AV Project 2025/repos/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar.egg-link (link to .)
+[0.967s] Installing ui_test_publish script to /home/alex/AV Project 2025/repos/User-Interface/ros2_ws/install/maincar/lib/maincar
+[0.968s] 
+[0.968s] Installed /home/alex/AV Project 2025/repos/User-Interface/ros2_ws/build/maincar
+[0.968s] running symlink_data
+[0.968s] symbolically linking /home/alex/AV Project 2025/repos/User-Interface/ros2_ws/build/maincar/resource/maincar -> /home/alex/AV Project 2025/repos/User-Interface/ros2_ws/install/maincar/share/ament_index/resource_index/packages
+[0.968s] symbolically linking /home/alex/AV Project 2025/repos/User-Interface/ros2_ws/build/maincar/package.xml -> /home/alex/AV Project 2025/repos/User-Interface/ros2_ws/install/maincar/share/maincar
+[0.994s] Invoked command in '/home/alex/AV Project 2025/repos/User-Interface/ros2_ws/build/maincar' returned '0': PYTHONPATH=/home/alex/AV Project 2025/repos/User-Interface/ros2_ws/build/maincar/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alex/AV Project 2025/repos/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/alex/AV Project 2025/repos/User-Interface/ros2_ws/build/maincar/build --no-deps symlink_data --force

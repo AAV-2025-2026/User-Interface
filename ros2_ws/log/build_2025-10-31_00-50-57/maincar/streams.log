@@ -1,0 +1,30 @@
+[0.528s] Invoking command in '/home/alex/AV_Project_2025/repos/User-Interface/ros2_ws/build/maincar': PYTHONPATH=/home/alex/AV_Project_2025/repos/User-Interface/ros2_ws/build/maincar/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alex/AV_Project_2025/repos/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/alex/AV_Project_2025/repos/User-Interface/ros2_ws/build/maincar/build
+[0.759s] running develop
+[0.909s] Removing /home/alex/AV_Project_2025/repos/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar.egg-link (link to .)
+[0.936s] Invoked command in '/home/alex/AV_Project_2025/repos/User-Interface/ros2_ws/build/maincar' returned '0': PYTHONPATH=/home/alex/AV_Project_2025/repos/User-Interface/ros2_ws/build/maincar/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alex/AV_Project_2025/repos/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/alex/AV_Project_2025/repos/User-Interface/ros2_ws/build/maincar/build
+[0.936s] Invoking command in '/home/alex/AV_Project_2025/repos/User-Interface/ros2_ws/src/maincar': PYTHONPATH=/home/alex/AV_Project_2025/repos/User-Interface/ros2_ws/build/maincar/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alex/AV_Project_2025/repos/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/maincar build --build-base /home/alex/AV_Project_2025/repos/User-Interface/ros2_ws/build/maincar/build install --record /home/alex/AV_Project_2025/repos/User-Interface/ros2_ws/build/maincar/install.log --single-version-externally-managed install_data --force
+[1.148s] running egg_info
+[1.149s] writing ../../build/maincar/maincar.egg-info/PKG-INFO
+[1.150s] writing dependency_links to ../../build/maincar/maincar.egg-info/dependency_links.txt
+[1.150s] writing entry points to ../../build/maincar/maincar.egg-info/entry_points.txt
+[1.151s] writing requirements to ../../build/maincar/maincar.egg-info/requires.txt
+[1.151s] writing top-level names to ../../build/maincar/maincar.egg-info/top_level.txt
+[1.152s] reading manifest file '../../build/maincar/maincar.egg-info/SOURCES.txt'
+[1.153s] writing manifest file '../../build/maincar/maincar.egg-info/SOURCES.txt'
+[1.153s] running build
+[1.153s] running build_py
+[1.153s] running install
+[1.153s] running install_lib
+[1.154s] creating /home/alex/AV_Project_2025/repos/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar
+[1.154s] copying /home/alex/AV_Project_2025/repos/User-Interface/ros2_ws/build/maincar/build/lib/maincar/ui_test.py -> /home/alex/AV_Project_2025/repos/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar
+[1.154s] copying /home/alex/AV_Project_2025/repos/User-Interface/ros2_ws/build/maincar/build/lib/maincar/__init__.py -> /home/alex/AV_Project_2025/repos/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar
+[1.155s] copying /home/alex/AV_Project_2025/repos/User-Interface/ros2_ws/build/maincar/build/lib/maincar/ui_fetch.py -> /home/alex/AV_Project_2025/repos/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar
+[1.155s] copying /home/alex/AV_Project_2025/repos/User-Interface/ros2_ws/build/maincar/build/lib/maincar/ui_push.py -> /home/alex/AV_Project_2025/repos/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar
+[1.155s] byte-compiling /home/alex/AV_Project_2025/repos/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar/ui_test.py to ui_test.cpython-310.pyc
+[1.156s] byte-compiling /home/alex/AV_Project_2025/repos/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar/__init__.py to __init__.cpython-310.pyc
+[1.156s] byte-compiling /home/alex/AV_Project_2025/repos/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar/ui_fetch.py to ui_fetch.cpython-310.pyc
+[1.157s] byte-compiling /home/alex/AV_Project_2025/repos/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar/ui_push.py to ui_push.cpython-310.pyc
+[1.157s] running install_data
+[1.157s] copying resource/maincar -> /home/alex/AV_Project_2025/repos/User-Interface/ros2_ws/install/maincar/share/ament_index/resource_index/packages
+[1.157s] error: could not create '/home/alex/AV_Project_2025/repos/User-Interface/ros2_ws/install/maincar/share/ament_index/resource_index/packages/maincar': No such file or directory
+[1.177s] Invoked command in '/home/alex/AV_Project_2025/repos/User-Interface/ros2_ws/src/maincar' returned '1': PYTHONPATH=/home/alex/AV_Project_2025/repos/User-Interface/ros2_ws/build/maincar/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alex/AV_Project_2025/repos/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/maincar build --build-base /home/alex/AV_Project_2025/repos/User-Interface/ros2_ws/build/maincar/build install --record /home/alex/AV_Project_2025/repos/User-Interface/ros2_ws/build/maincar/install.log --single-version-externally-managed install_data --force
