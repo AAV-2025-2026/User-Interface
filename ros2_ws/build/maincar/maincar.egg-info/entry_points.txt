@@ -1,0 +1,4 @@
+[console_scripts]
+ui_flask = maincar.ui_flask:main
+ui_test_publish = maincar.ui_test:main
+
