@@ -10,6 +10,7 @@ setup.py
 ../../build/maincar/maincar.egg-info/zip-safe
 maincar/__init__.py
 maincar/ui_fetch.py
+maincar/ui_flask.py
 maincar/ui_push.py
 maincar/ui_test.py
 maincar.egg-info/PKG-INFO

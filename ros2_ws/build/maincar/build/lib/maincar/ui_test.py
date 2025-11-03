@@ -36,7 +36,10 @@ class MyNode(Node):
 
     def send_mock_velocity_command(self):
 
-        msg = 5.0   # mock 5.0 velociter in m/s
+        msg = Float32()
+        msg.data = 5.0  # mock 5.0 velocity in m/s
+        self.get_logger().info("Sending Mock...")
+
 
         self.cmd_vel_pub_.publish(msg)  # publishes message
 
