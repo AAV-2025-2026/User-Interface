@@ -1,0 +1,20 @@
+[2.983s] Invoking command in '/home/aavui/maincar/User-Interface/ros2_ws/build/maincar': PYTHONPATH=/home/aavui/maincar/User-Interface/ros2_ws/build/maincar/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aavui/maincar/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/aavui/maincar/User-Interface/ros2_ws/build/maincar/build --no-deps symlink_data --force
+[4.216s] running develop
+[5.059s] running egg_info
+[5.060s] writing maincar.egg-info/PKG-INFO
+[5.062s] writing dependency_links to maincar.egg-info/dependency_links.txt
+[5.064s] writing entry points to maincar.egg-info/entry_points.txt
+[5.064s] writing requirements to maincar.egg-info/requires.txt
+[5.066s] writing top-level names to maincar.egg-info/top_level.txt
+[5.074s] reading manifest file 'maincar.egg-info/SOURCES.txt'
+[5.077s] writing manifest file 'maincar.egg-info/SOURCES.txt'
+[5.083s] running build_ext
+[5.084s] Creating /home/aavui/maincar/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar.egg-link (link to .)
+[5.087s] Installing ui_flask script to /home/aavui/maincar/User-Interface/ros2_ws/install/maincar/lib/maincar
+[5.088s] Installing ui_mock_publish script to /home/aavui/maincar/User-Interface/ros2_ws/install/maincar/lib/maincar
+[5.089s] 
+[5.090s] Installed /home/aavui/maincar/User-Interface/ros2_ws/build/maincar
+[5.090s] running symlink_data
+[5.090s] symbolically linking /home/aavui/maincar/User-Interface/ros2_ws/build/maincar/resource/maincar -> /home/aavui/maincar/User-Interface/ros2_ws/install/maincar/share/ament_index/resource_index/packages
+[5.091s] symbolically linking /home/aavui/maincar/User-Interface/ros2_ws/build/maincar/package.xml -> /home/aavui/maincar/User-Interface/ros2_ws/install/maincar/share/maincar
+[5.232s] Invoked command in '/home/aavui/maincar/User-Interface/ros2_ws/build/maincar' returned '0': PYTHONPATH=/home/aavui/maincar/User-Interface/ros2_ws/build/maincar/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aavui/maincar/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/aavui/maincar/User-Interface/ros2_ws/build/maincar/build --no-deps symlink_data --force

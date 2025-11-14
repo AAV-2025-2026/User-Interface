@@ -1,0 +1,47 @@
+[2.986s] Invoking command in '/home/aavui/maincar/User-Interface/ros2_ws/src/maincar': PYTHONPATH=/home/aavui/maincar/User-Interface/ros2_ws/build/maincar/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aavui/maincar/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/maincar build --build-base /home/aavui/maincar/User-Interface/ros2_ws/build/maincar/build install --record /home/aavui/maincar/User-Interface/ros2_ws/build/maincar/install.log --single-version-externally-managed install_data
+[4.139s] running egg_info
+[4.141s] creating ../../build/maincar/maincar.egg-info
+[4.142s] writing ../../build/maincar/maincar.egg-info/PKG-INFO
+[4.143s] writing dependency_links to ../../build/maincar/maincar.egg-info/dependency_links.txt
+[4.144s] writing entry points to ../../build/maincar/maincar.egg-info/entry_points.txt
+[4.144s] writing requirements to ../../build/maincar/maincar.egg-info/requires.txt
+[4.145s] writing top-level names to ../../build/maincar/maincar.egg-info/top_level.txt
+[4.146s] writing manifest file '../../build/maincar/maincar.egg-info/SOURCES.txt'
+[4.159s] reading manifest file '../../build/maincar/maincar.egg-info/SOURCES.txt'
+[4.163s] writing manifest file '../../build/maincar/maincar.egg-info/SOURCES.txt'
+[4.163s] running build
+[4.164s] running build_py
+[4.165s] creating /home/aavui/maincar/User-Interface/ros2_ws/build/maincar/build
+[4.165s] creating /home/aavui/maincar/User-Interface/ros2_ws/build/maincar/build/lib
+[4.166s] creating /home/aavui/maincar/User-Interface/ros2_ws/build/maincar/build/lib/maincar
+[4.166s] copying maincar/ui_test.py -> /home/aavui/maincar/User-Interface/ros2_ws/build/maincar/build/lib/maincar
+[4.166s] copying maincar/ui_push.py -> /home/aavui/maincar/User-Interface/ros2_ws/build/maincar/build/lib/maincar
+[4.167s] copying maincar/__init__.py -> /home/aavui/maincar/User-Interface/ros2_ws/build/maincar/build/lib/maincar
+[4.168s] copying maincar/ui_flask.py -> /home/aavui/maincar/User-Interface/ros2_ws/build/maincar/build/lib/maincar
+[4.169s] copying maincar/ui_fetch.py -> /home/aavui/maincar/User-Interface/ros2_ws/build/maincar/build/lib/maincar
+[4.170s] running install
+[4.171s] running install_lib
+[4.174s] creating /home/aavui/maincar/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar
+[4.175s] copying /home/aavui/maincar/User-Interface/ros2_ws/build/maincar/build/lib/maincar/ui_test.py -> /home/aavui/maincar/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar
+[4.175s] copying /home/aavui/maincar/User-Interface/ros2_ws/build/maincar/build/lib/maincar/ui_push.py -> /home/aavui/maincar/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar
+[4.176s] copying /home/aavui/maincar/User-Interface/ros2_ws/build/maincar/build/lib/maincar/__init__.py -> /home/aavui/maincar/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar
+[4.177s] copying /home/aavui/maincar/User-Interface/ros2_ws/build/maincar/build/lib/maincar/ui_flask.py -> /home/aavui/maincar/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar
+[4.178s] copying /home/aavui/maincar/User-Interface/ros2_ws/build/maincar/build/lib/maincar/ui_fetch.py -> /home/aavui/maincar/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar
+[4.180s] byte-compiling /home/aavui/maincar/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar/ui_test.py to ui_test.cpython-310.pyc
+[4.183s] byte-compiling /home/aavui/maincar/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar/ui_push.py to ui_push.cpython-310.pyc
+[4.184s] byte-compiling /home/aavui/maincar/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar/__init__.py to __init__.cpython-310.pyc
+[4.185s] byte-compiling /home/aavui/maincar/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar/ui_flask.py to ui_flask.cpython-310.pyc
+[4.188s] byte-compiling /home/aavui/maincar/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar/ui_fetch.py to ui_fetch.cpython-310.pyc
+[4.189s] running install_data
+[4.189s] creating /home/aavui/maincar/User-Interface/ros2_ws/install/maincar/share/ament_index
+[4.190s] creating /home/aavui/maincar/User-Interface/ros2_ws/install/maincar/share/ament_index/resource_index
+[4.190s] creating /home/aavui/maincar/User-Interface/ros2_ws/install/maincar/share/ament_index/resource_index/packages
+[4.191s] copying resource/maincar -> /home/aavui/maincar/User-Interface/ros2_ws/install/maincar/share/ament_index/resource_index/packages
+[4.191s] copying package.xml -> /home/aavui/maincar/User-Interface/ros2_ws/install/maincar/share/maincar
+[4.191s] running install_egg_info
+[4.199s] Copying ../../build/maincar/maincar.egg-info to /home/aavui/maincar/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar-0.0.0-py3.10.egg-info
+[4.204s] running install_scripts
+[4.282s] Installing ui_flask script to /home/aavui/maincar/User-Interface/ros2_ws/install/maincar/lib/maincar
+[4.283s] Installing ui_mock_publish script to /home/aavui/maincar/User-Interface/ros2_ws/install/maincar/lib/maincar
+[4.284s] writing list of installed files to '/home/aavui/maincar/User-Interface/ros2_ws/build/maincar/install.log'
+[4.407s] Invoked command in '/home/aavui/maincar/User-Interface/ros2_ws/src/maincar' returned '0': PYTHONPATH=/home/aavui/maincar/User-Interface/ros2_ws/build/maincar/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aavui/maincar/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/maincar build --build-base /home/aavui/maincar/User-Interface/ros2_ws/build/maincar/build install --record /home/aavui/maincar/User-Interface/ros2_ws/build/maincar/install.log --single-version-externally-managed install_data
