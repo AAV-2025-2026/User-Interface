@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+import base64
 import rclpy
 from rclpy.node import Node
 from flask import Flask
@@ -7,7 +8,9 @@ from threading import Thread
 from flask_socketio import SocketIO
 
 from std_msgs.msg import Float32
-from sensor_msgs.msg import NavSatFix
+from sensor_msgs.msg import NavSatFix, Image
+from cv_bridge import CvBridge
+import cv2
 
 # creates flask app
 flask_app = Flask(__name__)
@@ -46,6 +49,7 @@ class FlaskNode(Node):
         # makes the flask node a subscriber to speed topic
         self.subscriber_mock_speed = self.create_subscription(Float32, "/mock_speed", self.callback_function_mock_speed_fetch, 10)
         self.subscriber_mock_gps = self.create_subscription(NavSatFix, "/mock_gps", self.callback_function_mock_gps_fetch, 10)
+        self.subscriber_camera1_feed = self.create_subscription(Image, "/camera/image_raw/", self.callback_function_camera_fetch, 10)
 
         self.get_logger().info("Flask node is now hosting a Flask server using ros2 by threading")
 
@@ -76,6 +80,34 @@ class FlaskNode(Node):
         # can do whatever you want with the message
 
         socketio.emit("mock_gps_update", {"latitude": latitude, "longitude": longitude})
+
+
+    def callback_function_camera_fetch(self, msg: Image):
+        try:
+            # Convert ROS Image message to OpenCV format
+            # msg.encoding is 'rgb8' based on your gscam config
+            cv_image = self.bridge.imgmsg_to_cv2(msg, desired_encoding='rgb8')
+            
+            # Convert RGB to BGR for OpenCV (OpenCV uses BGR)
+            cv_image_bgr = cv2.cvtColor(cv_image, cv2.COLOR_RGB2BGR)
+            
+            # Encode as JPEG with compression (adjust quality 0-100)
+            encode_param = [int(cv2.IMWRITE_JPEG_QUALITY), 80]
+            _, buffer = cv2.imencode('.jpg', cv_image_bgr, encode_param)
+            
+            # Convert to base64 for transmission
+            img_base64 = base64.b64encode(buffer).decode('utf-8')
+            
+            # Emit camera frame to all connected Flutter clients
+            socketio.emit("camera_frame", {
+                "image": img_base64,
+                "format": "jpeg"
+            })
+            
+            self.get_logger().info("Camera frame sent")
+            
+        except Exception as e:
+            self.get_logger().error(f"Error processing camera frame: {str(e)}")
 
 
 def main(args=None):
