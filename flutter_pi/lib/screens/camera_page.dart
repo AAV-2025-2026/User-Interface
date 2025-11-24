@@ -20,9 +20,9 @@ class _CameraPageState extends State<CameraPage> {
     super.initState();
     socketService = SocketService();
     socketService.initSocketConnection(
-      serverUrl: 'http://127.0.0.1:5000',  // Change to your Jetson IP
-      onSpeedUpdate: (newSpeed) {},  // Not used in camera page
-      onGpsUpdate: (lat, lon) {},    // Not used in camera page
+      serverUrl: 'http://127.0.0.1:5000',
+      onSpeedUpdate: (newSpeed) {}, 
+      onGpsUpdate: (lat, lon) {}, 
       onCameraFrame: (imageBytes) {
         setState(() {
           currentFrame = imageBytes;
