@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- To launch this manually: $ ros2 launch ros2_launch.xml -->
+<!-- This file is not be launched manually, but by systemd (on Linux bootup) and ros2_bootup.sh --> 
+
+<launch>
+  <node pkg="maincar" exec="ui_mock_publish" namespace="ui_mock_publish_1" />
+  <node pkg="maincar" exec="ui_flask" namespace="ui_flask_1" />
+</launch>
