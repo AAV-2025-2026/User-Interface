@@ -19,9 +19,9 @@ These are the steps:
 1. in the folder ect/systemd,
    create a "ros2.service" file. Next step is to make sure that systemd knows that the new service (the new ros2.service file) exists by using the following commands: 
    
-	sudo systemctl daemon-reload          // this refreshes the visiblity of all services inside systemd <br>
-	sudo systemctl enable ros2.service    // this turns on the selected service <br>
-	sudo systemctl start ros2.service     // this is to test it right away <br>
+	sudo systemctl daemon-reload          // this refreshes the visiblity of all services inside systemd
+	sudo systemctl enable ros2.service    // this turns on the selected service
+	sudo systemctl start ros2.service     // this is to test it right away
 	
    this will allow to run ros2.service on bootup.
    
