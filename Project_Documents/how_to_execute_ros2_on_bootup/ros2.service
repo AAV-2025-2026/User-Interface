@@ -1,0 +1,15 @@
+[Unit]
+Description=ROS 2 startup service
+After=local-fs.target
+
+[Service]
+Type=simple
+User=aavui
+WorkingDirectory=/home/aavui/Desktop/User-Interface/ros2_ws
+ExecStart=/bin/bash /home/aavui/Desktop/User-Interface/ros2_ws/bootup/ros2_bootup.sh
+Restart=on-failure
+RestartSec=5
+Environment=ROS_DOMAIN_ID=0
+
+[Install]
+WantedBy=multi-user.target
