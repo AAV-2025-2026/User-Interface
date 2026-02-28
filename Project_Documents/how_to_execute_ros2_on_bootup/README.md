@@ -21,26 +21,24 @@ These are the steps:
    
 	sudo systemctl daemon-reload          (this refreshes the visiblity of all services inside systemd) <br>
 	sudo systemctl enable ros2.service    (this turns on the selected service) <br>
-	sudo systemctl start ros2.service     (this is to test it right away without needing to bootup) <br>
 	
    this will allow to run ros2.service on bootup.
-   To see if nodes are working, do the command "rqt_graph" and click "refresh" to see if the nodes are active.
    
-3. in the folder <your_ros2_workspace>/bootup,
+2. in the folder <your_ros2_workspace>/bootup,
    create a "ros2_launch.sh" file
    make it executable with "chmod +x"
    make sure you add in this shell file:
    "source <ros2_workspace_path>/install/setup.bash"
    ros2 command "ros2 launch <package_name> launch.py"
    
-4. in ros2_ws/src/<package_name>/launch,
+3. in ros2_ws/src/<package_name>/launch,
    create the "launch.py" file
    this contains what nodes to launch
    
-5. edit ros2_ws/setup
+4. edit ros2_ws/setup
    where the data_files="" section includes the launch files
    
-6. finally do "colcon build",
+5. finally do "colcon build",
    this will take the launch.py file in ros2_ws/src/<package_name>/launch
    and build it in:
    ros2_ws/install/maincar/share/launch.py   
