@@ -1,0 +1,30 @@
+[3.783s] Invoking command in '/home/aavui/Desktop/User-Interface/ros2_ws/src/maincar': PYTHONPATH=/home/aavui/Desktop/User-Interface/ros2_ws/build/maincar/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aavui/Desktop/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/maincar build --build-base /home/aavui/Desktop/User-Interface/ros2_ws/build/maincar/build install --record /home/aavui/Desktop/User-Interface/ros2_ws/build/maincar/install.log --single-version-externally-managed install_data
+[5.061s] running egg_info
+[5.061s] writing ../../build/maincar/maincar.egg-info/PKG-INFO
+[5.062s] writing dependency_links to ../../build/maincar/maincar.egg-info/dependency_links.txt
+[5.063s] writing entry points to ../../build/maincar/maincar.egg-info/entry_points.txt
+[5.063s] writing requirements to ../../build/maincar/maincar.egg-info/requires.txt
+[5.064s] writing top-level names to ../../build/maincar/maincar.egg-info/top_level.txt
+[5.072s] reading manifest file '../../build/maincar/maincar.egg-info/SOURCES.txt'
+[5.078s] writing manifest file '../../build/maincar/maincar.egg-info/SOURCES.txt'
+[5.079s] running build
+[5.079s] running build_py
+[5.081s] copying maincar/ui_flask.py -> /home/aavui/Desktop/User-Interface/ros2_ws/build/maincar/build/lib/maincar
+[5.083s] running install
+[5.084s] running install_lib
+[5.090s] copying /home/aavui/Desktop/User-Interface/ros2_ws/build/maincar/build/lib/maincar/ui_flask.py -> /home/aavui/Desktop/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar
+[5.094s] byte-compiling /home/aavui/Desktop/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar/ui_flask.py to ui_flask.cpython-310.pyc
+[5.100s]   File "/home/aavui/Desktop/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar/ui_flask.py", line 144
+[5.100s]     def getDestination(point -> routeData):
+[5.100s]                              ^^
+[5.101s] SyntaxError: invalid syntax
+[5.101s] 
+[5.101s] running install_data
+[5.102s] running install_egg_info
+[5.108s] removing '/home/aavui/Desktop/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar-0.0.0-py3.10.egg-info' (and everything under it)
+[5.110s] Copying ../../build/maincar/maincar.egg-info to /home/aavui/Desktop/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar-0.0.0-py3.10.egg-info
+[5.117s] running install_scripts
+[5.208s] Installing ui_flask script to /home/aavui/Desktop/User-Interface/ros2_ws/install/maincar/lib/maincar
+[5.209s] Installing ui_mock_publish script to /home/aavui/Desktop/User-Interface/ros2_ws/install/maincar/lib/maincar
+[5.211s] writing list of installed files to '/home/aavui/Desktop/User-Interface/ros2_ws/build/maincar/install.log'
+[5.353s] Invoked command in '/home/aavui/Desktop/User-Interface/ros2_ws/src/maincar' returned '0': PYTHONPATH=/home/aavui/Desktop/User-Interface/ros2_ws/build/maincar/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aavui/Desktop/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/maincar build --build-base /home/aavui/Desktop/User-Interface/ros2_ws/build/maincar/build install --record /home/aavui/Desktop/User-Interface/ros2_ws/build/maincar/install.log --single-version-externally-managed install_data

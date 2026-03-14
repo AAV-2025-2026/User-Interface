@@ -1,0 +1,28 @@
+running egg_info
+writing ../../build/maincar/maincar.egg-info/PKG-INFO
+writing dependency_links to ../../build/maincar/maincar.egg-info/dependency_links.txt
+writing entry points to ../../build/maincar/maincar.egg-info/entry_points.txt
+writing requirements to ../../build/maincar/maincar.egg-info/requires.txt
+writing top-level names to ../../build/maincar/maincar.egg-info/top_level.txt
+reading manifest file '../../build/maincar/maincar.egg-info/SOURCES.txt'
+writing manifest file '../../build/maincar/maincar.egg-info/SOURCES.txt'
+running build
+running build_py
+copying maincar/ui_flask.py -> /home/aavui/Desktop/User-Interface/ros2_ws/build/maincar/build/lib/maincar
+running install
+running install_lib
+copying /home/aavui/Desktop/User-Interface/ros2_ws/build/maincar/build/lib/maincar/ui_flask.py -> /home/aavui/Desktop/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar
+byte-compiling /home/aavui/Desktop/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar/ui_flask.py to ui_flask.cpython-310.pyc
+  File "/home/aavui/Desktop/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar/ui_flask.py", line 144
+    def getDestination(point -> routeData):
+                             ^^
+SyntaxError: invalid syntax
+
+running install_data
+running install_egg_info
+removing '/home/aavui/Desktop/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/maincar/maincar.egg-info to /home/aavui/Desktop/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar-0.0.0-py3.10.egg-info
+running install_scripts
+Installing ui_flask script to /home/aavui/Desktop/User-Interface/ros2_ws/install/maincar/lib/maincar
+Installing ui_mock_publish script to /home/aavui/Desktop/User-Interface/ros2_ws/install/maincar/lib/maincar
+writing list of installed files to '/home/aavui/Desktop/User-Interface/ros2_ws/build/maincar/install.log'

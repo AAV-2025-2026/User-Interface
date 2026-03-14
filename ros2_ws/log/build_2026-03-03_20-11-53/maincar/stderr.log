@@ -1,0 +1,5 @@
+  File "/home/aavui/Desktop/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar/ui_flask.py", line 144
+    def getDestination(point -> routeData):
+                             ^^
+SyntaxError: invalid syntax
+
