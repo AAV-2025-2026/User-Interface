@@ -1,0 +1,49 @@
+[4.481s] Invoking command in '/home/aavui/Desktop/User-Interface/ros2_ws/src/maincar': PYTHONPATH=/home/aavui/Desktop/User-Interface/ros2_ws/build/maincar/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aavui/Desktop/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/maincar build --build-base /home/aavui/Desktop/User-Interface/ros2_ws/build/maincar/build install --record /home/aavui/Desktop/User-Interface/ros2_ws/build/maincar/install.log --single-version-externally-managed install_data
+[6.396s] running egg_info
+[6.399s] creating ../../build/maincar/maincar.egg-info
+[6.400s] writing ../../build/maincar/maincar.egg-info/PKG-INFO
+[6.401s] writing dependency_links to ../../build/maincar/maincar.egg-info/dependency_links.txt
+[6.402s] writing entry points to ../../build/maincar/maincar.egg-info/entry_points.txt
+[6.403s] writing requirements to ../../build/maincar/maincar.egg-info/requires.txt
+[6.403s] writing top-level names to ../../build/maincar/maincar.egg-info/top_level.txt
+[6.404s] writing manifest file '../../build/maincar/maincar.egg-info/SOURCES.txt'
+[6.416s] reading manifest file '../../build/maincar/maincar.egg-info/SOURCES.txt'
+[6.421s] writing manifest file '../../build/maincar/maincar.egg-info/SOURCES.txt'
+[6.422s] running build
+[6.423s] running build_py
+[6.424s] creating /home/aavui/Desktop/User-Interface/ros2_ws/build/maincar/build
+[6.425s] creating /home/aavui/Desktop/User-Interface/ros2_ws/build/maincar/build/lib
+[6.426s] creating /home/aavui/Desktop/User-Interface/ros2_ws/build/maincar/build/lib/maincar
+[6.427s] copying maincar/ui_test.py -> /home/aavui/Desktop/User-Interface/ros2_ws/build/maincar/build/lib/maincar
+[6.428s] copying maincar/ui_push.py -> /home/aavui/Desktop/User-Interface/ros2_ws/build/maincar/build/lib/maincar
+[6.429s] copying maincar/__init__.py -> /home/aavui/Desktop/User-Interface/ros2_ws/build/maincar/build/lib/maincar
+[6.431s] copying maincar/ui_flask.py -> /home/aavui/Desktop/User-Interface/ros2_ws/build/maincar/build/lib/maincar
+[6.432s] copying maincar/ui_fetch.py -> /home/aavui/Desktop/User-Interface/ros2_ws/build/maincar/build/lib/maincar
+[6.434s] running install
+[6.434s] running install_lib
+[6.443s] creating /home/aavui/Desktop/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar
+[6.444s] copying /home/aavui/Desktop/User-Interface/ros2_ws/build/maincar/build/lib/maincar/ui_test.py -> /home/aavui/Desktop/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar
+[6.445s] copying /home/aavui/Desktop/User-Interface/ros2_ws/build/maincar/build/lib/maincar/ui_push.py -> /home/aavui/Desktop/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar
+[6.446s] copying /home/aavui/Desktop/User-Interface/ros2_ws/build/maincar/build/lib/maincar/__init__.py -> /home/aavui/Desktop/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar
+[6.447s] copying /home/aavui/Desktop/User-Interface/ros2_ws/build/maincar/build/lib/maincar/ui_flask.py -> /home/aavui/Desktop/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar
+[6.447s] copying /home/aavui/Desktop/User-Interface/ros2_ws/build/maincar/build/lib/maincar/ui_fetch.py -> /home/aavui/Desktop/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar
+[6.450s] byte-compiling /home/aavui/Desktop/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar/ui_test.py to ui_test.cpython-310.pyc
+[6.456s] byte-compiling /home/aavui/Desktop/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar/ui_push.py to ui_push.cpython-310.pyc
+[6.456s] byte-compiling /home/aavui/Desktop/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar/__init__.py to __init__.cpython-310.pyc
+[6.457s] byte-compiling /home/aavui/Desktop/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar/ui_flask.py to ui_flask.cpython-310.pyc
+[6.466s] byte-compiling /home/aavui/Desktop/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar/ui_fetch.py to ui_fetch.cpython-310.pyc
+[6.467s] running install_data
+[6.468s] creating /home/aavui/Desktop/User-Interface/ros2_ws/install/maincar/share/ament_index
+[6.472s] creating /home/aavui/Desktop/User-Interface/ros2_ws/install/maincar/share/ament_index/resource_index
+[6.473s] creating /home/aavui/Desktop/User-Interface/ros2_ws/install/maincar/share/ament_index/resource_index/packages
+[6.473s] copying resource/maincar -> /home/aavui/Desktop/User-Interface/ros2_ws/install/maincar/share/ament_index/resource_index/packages
+[6.474s] copying package.xml -> /home/aavui/Desktop/User-Interface/ros2_ws/install/maincar/share/maincar
+[6.475s] creating /home/aavui/Desktop/User-Interface/ros2_ws/install/maincar/share/maincar/launch
+[6.475s] copying launch/launch.py -> /home/aavui/Desktop/User-Interface/ros2_ws/install/maincar/share/maincar/launch
+[6.476s] running install_egg_info
+[6.484s] Copying ../../build/maincar/maincar.egg-info to /home/aavui/Desktop/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar-0.0.0-py3.10.egg-info
+[6.494s] running install_scripts
+[6.608s] Installing ui_flask script to /home/aavui/Desktop/User-Interface/ros2_ws/install/maincar/lib/maincar
+[6.610s] Installing ui_mock_publish script to /home/aavui/Desktop/User-Interface/ros2_ws/install/maincar/lib/maincar
+[6.612s] writing list of installed files to '/home/aavui/Desktop/User-Interface/ros2_ws/build/maincar/install.log'
+[6.764s] Invoked command in '/home/aavui/Desktop/User-Interface/ros2_ws/src/maincar' returned '0': PYTHONPATH=/home/aavui/Desktop/User-Interface/ros2_ws/build/maincar/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aavui/Desktop/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/maincar build --build-base /home/aavui/Desktop/User-Interface/ros2_ws/build/maincar/build install --record /home/aavui/Desktop/User-Interface/ros2_ws/build/maincar/install.log --single-version-externally-managed install_data

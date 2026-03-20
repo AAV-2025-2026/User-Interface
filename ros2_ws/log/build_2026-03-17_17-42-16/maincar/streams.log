@@ -1,0 +1,22 @@
+[4.018s] Invoking command in '/home/aavui/Desktop/User-Interface/ros2_ws/src/maincar': PYTHONPATH=/home/aavui/Desktop/User-Interface/ros2_ws/build/maincar/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aavui/Desktop/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/maincar build --build-base /home/aavui/Desktop/User-Interface/ros2_ws/build/maincar/build install --record /home/aavui/Desktop/User-Interface/ros2_ws/build/maincar/install.log --single-version-externally-managed install_data
+[5.381s] running egg_info
+[5.384s] writing ../../build/maincar/maincar.egg-info/PKG-INFO
+[5.386s] writing dependency_links to ../../build/maincar/maincar.egg-info/dependency_links.txt
+[5.387s] writing entry points to ../../build/maincar/maincar.egg-info/entry_points.txt
+[5.388s] writing requirements to ../../build/maincar/maincar.egg-info/requires.txt
+[5.389s] writing top-level names to ../../build/maincar/maincar.egg-info/top_level.txt
+[5.399s] reading manifest file '../../build/maincar/maincar.egg-info/SOURCES.txt'
+[5.405s] writing manifest file '../../build/maincar/maincar.egg-info/SOURCES.txt'
+[5.406s] running build
+[5.406s] running build_py
+[5.410s] running install
+[5.412s] running install_lib
+[5.422s] running install_data
+[5.425s] running install_egg_info
+[5.435s] removing '/home/aavui/Desktop/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar-0.0.0-py3.10.egg-info' (and everything under it)
+[5.437s] Copying ../../build/maincar/maincar.egg-info to /home/aavui/Desktop/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar-0.0.0-py3.10.egg-info
+[5.445s] running install_scripts
+[5.534s] Installing ui_flask script to /home/aavui/Desktop/User-Interface/ros2_ws/install/maincar/lib/maincar
+[5.536s] Installing ui_mock_publish script to /home/aavui/Desktop/User-Interface/ros2_ws/install/maincar/lib/maincar
+[5.538s] writing list of installed files to '/home/aavui/Desktop/User-Interface/ros2_ws/build/maincar/install.log'
+[5.672s] Invoked command in '/home/aavui/Desktop/User-Interface/ros2_ws/src/maincar' returned '0': PYTHONPATH=/home/aavui/Desktop/User-Interface/ros2_ws/build/maincar/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aavui/Desktop/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/maincar build --build-base /home/aavui/Desktop/User-Interface/ros2_ws/build/maincar/build install --record /home/aavui/Desktop/User-Interface/ros2_ws/build/maincar/install.log --single-version-externally-managed install_data
