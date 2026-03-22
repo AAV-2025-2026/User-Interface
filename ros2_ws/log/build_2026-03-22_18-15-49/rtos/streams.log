@@ -1,0 +1,44 @@
+[1.536s] Invoking command in '/home/alex/Desktop/repos/User-Interface/ros2_ws/build/rtos': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/alex/Desktop/repos/User-Interface/ros2_ws/src/rtos -DCMAKE_INSTALL_PREFIX=/home/alex/Desktop/repos/User-Interface/ros2_ws/install/rtos
+[2.315s] -- The C compiler identification is GNU 11.4.0
+[2.639s] -- The CXX compiler identification is GNU 11.4.0
+[2.696s] -- Detecting C compiler ABI info
+[3.111s] -- Detecting C compiler ABI info - done
+[3.141s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.143s] -- Detecting C compile features
+[3.146s] -- Detecting C compile features - done
+[3.165s] -- Detecting CXX compiler ABI info
+[3.611s] -- Detecting CXX compiler ABI info - done
+[3.644s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.646s] -- Detecting CXX compile features
+[3.648s] -- Detecting CXX compile features - done
+[3.722s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.669s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[5.930s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[6.567s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[6.630s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[6.722s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[6.839s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.993s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.578s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[7.612s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[8.361s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[8.679s] -- Found FastRTPS: /opt/ros/humble/include  
+[9.185s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.289s] -- Looking for pthread.h
+[9.689s] -- Looking for pthread.h - found
+[9.692s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[10.108s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[10.113s] -- Found Threads: TRUE  
+[10.527s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[11.058s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:53 (message):
+[11.059s]   ament_package_xml() package name 'rtos' in '/package.xml' does not match
+[11.059s]   current PROJECT_NAME 'imu_bridge_qnx'.  You must call project() with the
+[11.060s]   same package name before.
+[11.060s] Call Stack (most recent call first):
+[11.060s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package.cmake:63 (ament_package_xml)
+[11.061s]   CMakeLists.txt:36 (ament_package)
+[11.061s] 
+[11.061s] [0m
+[11.062s] -- Configuring incomplete, errors occurred!
+[11.062s] See also "/home/alex/Desktop/repos/User-Interface/ros2_ws/build/rtos/CMakeFiles/CMakeOutput.log".
+[11.103s] Invoked command in '/home/alex/Desktop/repos/User-Interface/ros2_ws/build/rtos' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/alex/Desktop/repos/User-Interface/ros2_ws/src/rtos -DCMAKE_INSTALL_PREFIX=/home/alex/Desktop/repos/User-Interface/ros2_ws/install/rtos

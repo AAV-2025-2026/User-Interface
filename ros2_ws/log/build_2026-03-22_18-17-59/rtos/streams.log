@@ -1,0 +1,41 @@
+[1.496s] Invoking command in '/home/alex/Desktop/repos/User-Interface/ros2_ws/build/rtos': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/alex/Desktop/repos/User-Interface/ros2_ws/src/rtos -DCMAKE_INSTALL_PREFIX=/home/alex/Desktop/repos/User-Interface/ros2_ws/install/rtos
+[1.564s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.290s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[2.522s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.537s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.570s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.623s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.688s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.870s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.878s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.066s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.332s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[4.867s] -- Configuring done
+[4.900s] [31mCMake Error at CMakeLists.txt:13 (add_executable):
+[4.901s]   Cannot find source file:
+[4.901s] 
+[4.902s]     src/test_Sub.cpp
+[4.902s] 
+[4.903s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[4.903s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[4.904s] 
+[4.904s] [0m
+[4.906s] [31mCMake Error at CMakeLists.txt:22 (add_executable):
+[4.907s]   Cannot find source file:
+[4.908s] 
+[4.908s]     src/test_Pub.cpp
+[4.909s] 
+[4.909s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[4.910s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[4.910s] 
+[4.911s] [0m
+[4.912s] [31mCMake Error at CMakeLists.txt:13 (add_executable):
+[4.913s]   No SOURCES given to target: test_Sub
+[4.913s] 
+[4.914s] [0m
+[4.914s] [31mCMake Error at CMakeLists.txt:22 (add_executable):
+[4.915s]   No SOURCES given to target: test_Pub
+[4.915s] 
+[4.917s] [0m
+[4.918s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[4.946s] Invoked command in '/home/alex/Desktop/repos/User-Interface/ros2_ws/build/rtos' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/alex/Desktop/repos/User-Interface/ros2_ws/src/rtos -DCMAKE_INSTALL_PREFIX=/home/alex/Desktop/repos/User-Interface/ros2_ws/install/rtos

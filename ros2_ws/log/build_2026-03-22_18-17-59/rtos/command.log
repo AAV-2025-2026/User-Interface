@@ -1,0 +1,2 @@
+Invoking command in '/home/alex/Desktop/repos/User-Interface/ros2_ws/build/rtos': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/alex/Desktop/repos/User-Interface/ros2_ws/src/rtos -DCMAKE_INSTALL_PREFIX=/home/alex/Desktop/repos/User-Interface/ros2_ws/install/rtos
+Invoked command in '/home/alex/Desktop/repos/User-Interface/ros2_ws/build/rtos' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/alex/Desktop/repos/User-Interface/ros2_ws/src/rtos -DCMAKE_INSTALL_PREFIX=/home/alex/Desktop/repos/User-Interface/ros2_ws/install/rtos

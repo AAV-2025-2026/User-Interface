@@ -1,0 +1,21 @@
+[3.534s] Invoking command in '/home/alex/Desktop/repos/User-Interface/ros2_ws/src/maincar': PYTHONPATH=/home/alex/Desktop/repos/User-Interface/ros2_ws/build/maincar/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alex/Desktop/repos/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/maincar build --build-base /home/alex/Desktop/repos/User-Interface/ros2_ws/build/maincar/build install --record /home/alex/Desktop/repos/User-Interface/ros2_ws/build/maincar/install.log --single-version-externally-managed install_data
+[5.052s] running egg_info
+[5.055s] writing ../../build/maincar/maincar.egg-info/PKG-INFO
+[5.057s] writing dependency_links to ../../build/maincar/maincar.egg-info/dependency_links.txt
+[5.057s] writing entry points to ../../build/maincar/maincar.egg-info/entry_points.txt
+[5.059s] writing requirements to ../../build/maincar/maincar.egg-info/requires.txt
+[5.060s] writing top-level names to ../../build/maincar/maincar.egg-info/top_level.txt
+[5.071s] reading manifest file '../../build/maincar/maincar.egg-info/SOURCES.txt'
+[5.078s] writing manifest file '../../build/maincar/maincar.egg-info/SOURCES.txt'
+[5.083s] running build
+[5.085s] running build_py
+[5.086s] running install
+[5.088s] running install_lib
+[5.092s] running install_data
+[5.093s] running install_egg_info
+[5.107s] removing '/home/alex/Desktop/repos/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar-0.0.0-py3.10.egg-info' (and everything under it)
+[5.108s] Copying ../../build/maincar/maincar.egg-info to /home/alex/Desktop/repos/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar-0.0.0-py3.10.egg-info
+[5.115s] running install_scripts
+[5.213s] Installing ui_flask script to /home/alex/Desktop/repos/User-Interface/ros2_ws/install/maincar/lib/maincar
+[5.214s] Installing ui_mock_publish script to /home/alex/Desktop/repos/User-Interface/ros2_ws/install/maincar/lib/maincar
+[5.216s] writing list of installed files to '/home/alex/Desktop/repos/User-Interface/ros2_ws/build/maincar/install.log'

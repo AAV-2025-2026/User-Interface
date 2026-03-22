@@ -1,0 +1,213 @@
+[0.000000] (-) TimerEvent: {}
+[0.001762] (maincar) JobQueued: {'identifier': 'maincar', 'dependencies': OrderedDict()}
+[0.002422] (rtos) JobQueued: {'identifier': 'rtos', 'dependencies': OrderedDict()}
+[0.002937] (maincar) JobStarted: {'identifier': 'maincar'}
+[0.071820] (rtos) JobStarted: {'identifier': 'rtos'}
+[0.099760] (-) TimerEvent: {}
+[0.200732] (-) TimerEvent: {}
+[0.301930] (-) TimerEvent: {}
+[0.402757] (-) TimerEvent: {}
+[0.503520] (-) TimerEvent: {}
+[0.604261] (-) TimerEvent: {}
+[0.704959] (-) TimerEvent: {}
+[0.805649] (-) TimerEvent: {}
+[0.906325] (-) TimerEvent: {}
+[1.007021] (-) TimerEvent: {}
+[1.107729] (-) TimerEvent: {}
+[1.208412] (-) TimerEvent: {}
+[1.309112] (-) TimerEvent: {}
+[1.409935] (-) TimerEvent: {}
+[1.510741] (-) TimerEvent: {}
+[1.602289] (rtos) JobProgress: {'identifier': 'rtos', 'progress': 'cmake'}
+[1.604807] (rtos) Command: {'cmd': ['/usr/bin/cmake', '/home/alex/Desktop/repos/User-Interface/ros2_ws/src/rtos', '-DCMAKE_INSTALL_PREFIX=/home/alex/Desktop/repos/User-Interface/ros2_ws/install/rtos'], 'cwd': '/home/alex/Desktop/repos/User-Interface/ros2_ws/build/rtos', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'alex'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/alex'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2067'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ba8253b02b1c098e15215f4b69c0677e'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'alex'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'alex'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/alex/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/alex-desktop:@/tmp/.ICE-unix/2067,unix/alex-desktop:/tmp/.ICE-unix/2067'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2512249a_5daf_40b9_a2ac_b083fe5f652b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.122'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/alex/Desktop/repos/User-Interface/ros2_ws/build/rtos'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ba8253b02b1c098e15215f4b69c0677e'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.610844] (-) TimerEvent: {}
+[1.711515] (-) TimerEvent: {}
+[1.812523] (-) TimerEvent: {}
+[1.913357] (-) TimerEvent: {}
+[2.014231] (-) TimerEvent: {}
+[2.114963] (-) TimerEvent: {}
+[2.215769] (-) TimerEvent: {}
+[2.316666] (-) TimerEvent: {}
+[2.387027] (rtos) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[2.416833] (-) TimerEvent: {}
+[2.517982] (-) TimerEvent: {}
+[2.619174] (-) TimerEvent: {}
+[2.711232] (rtos) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.719328] (-) TimerEvent: {}
+[2.767973] (rtos) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.819547] (-) TimerEvent: {}
+[2.920511] (-) TimerEvent: {}
+[3.021418] (-) TimerEvent: {}
+[3.122311] (-) TimerEvent: {}
+[3.182466] (rtos) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.212439] (rtos) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.214584] (rtos) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.217681] (rtos) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.222479] (-) TimerEvent: {}
+[3.236914] (rtos) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.322739] (-) TimerEvent: {}
+[3.423682] (-) TimerEvent: {}
+[3.524713] (-) TimerEvent: {}
+[3.625679] (-) TimerEvent: {}
+[3.683118] (rtos) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.715721] (rtos) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.717747] (rtos) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.719933] (rtos) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.725958] (-) TimerEvent: {}
+[3.793262] (rtos) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.826253] (-) TimerEvent: {}
+[3.878089] (maincar) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/maincar', 'build', '--build-base', '/home/alex/Desktop/repos/User-Interface/ros2_ws/build/maincar/build', 'install', '--record', '/home/alex/Desktop/repos/User-Interface/ros2_ws/build/maincar/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/alex/Desktop/repos/User-Interface/ros2_ws/src/maincar', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'alex', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/alex', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2067', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=ba8253b02b1c098e15215f4b69c0677e', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'alex', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'alex', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/alex/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/alex-desktop:@/tmp/.ICE-unix/2067,unix/alex-desktop:/tmp/.ICE-unix/2067', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/2512249a_5daf_40b9_a2ac_b083fe5f652b', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.122', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/alex/Desktop/repos/User-Interface/ros2_ws/build/maincar', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=ba8253b02b1c098e15215f4b69c0677e', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/alex/Desktop/repos/User-Interface/ros2_ws/build/maincar/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alex/Desktop/repos/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[3.926429] (-) TimerEvent: {}
+[4.027270] (-) TimerEvent: {}
+[4.128196] (-) TimerEvent: {}
+[4.229402] (-) TimerEvent: {}
+[4.330307] (-) TimerEvent: {}
+[4.431438] (-) TimerEvent: {}
+[4.532576] (-) TimerEvent: {}
+[4.633393] (-) TimerEvent: {}
+[4.734502] (-) TimerEvent: {}
+[4.740832] (rtos) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[4.834702] (-) TimerEvent: {}
+[4.935648] (-) TimerEvent: {}
+[5.036490] (-) TimerEvent: {}
+[5.137475] (-) TimerEvent: {}
+[5.238451] (-) TimerEvent: {}
+[5.339255] (-) TimerEvent: {}
+[5.440068] (-) TimerEvent: {}
+[5.456767] (maincar) StdoutLine: {'line': b'running egg_info\n'}
+[5.459322] (maincar) StdoutLine: {'line': b'creating ../../build/maincar/maincar.egg-info\n'}
+[5.460379] (maincar) StdoutLine: {'line': b'writing ../../build/maincar/maincar.egg-info/PKG-INFO\n'}
+[5.461561] (maincar) StdoutLine: {'line': b'writing dependency_links to ../../build/maincar/maincar.egg-info/dependency_links.txt\n'}
+[5.462365] (maincar) StdoutLine: {'line': b'writing entry points to ../../build/maincar/maincar.egg-info/entry_points.txt\n'}
+[5.462952] (maincar) StdoutLine: {'line': b'writing requirements to ../../build/maincar/maincar.egg-info/requires.txt\n'}
+[5.463533] (maincar) StdoutLine: {'line': b'writing top-level names to ../../build/maincar/maincar.egg-info/top_level.txt\n'}
+[5.464441] (maincar) StdoutLine: {'line': b"writing manifest file '../../build/maincar/maincar.egg-info/SOURCES.txt'\n"}
+[5.474052] (maincar) StdoutLine: {'line': b"reading manifest file '../../build/maincar/maincar.egg-info/SOURCES.txt'\n"}
+[5.478652] (maincar) StdoutLine: {'line': b"writing manifest file '../../build/maincar/maincar.egg-info/SOURCES.txt'\n"}
+[5.540387] (-) TimerEvent: {}
+[5.573217] (maincar) StdoutLine: {'line': b'running build\n'}
+[5.575003] (maincar) StdoutLine: {'line': b'running build_py\n'}
+[5.577036] (maincar) StdoutLine: {'line': b'creating /home/alex/Desktop/repos/User-Interface/ros2_ws/build/maincar/build\n'}
+[5.580705] (maincar) StdoutLine: {'line': b'creating /home/alex/Desktop/repos/User-Interface/ros2_ws/build/maincar/build/lib\n'}
+[5.582399] (maincar) StdoutLine: {'line': b'creating /home/alex/Desktop/repos/User-Interface/ros2_ws/build/maincar/build/lib/maincar\n'}
+[5.583927] (maincar) StdoutLine: {'line': b'copying maincar/ui_test.py -> /home/alex/Desktop/repos/User-Interface/ros2_ws/build/maincar/build/lib/maincar\n'}
+[5.614459] (maincar) StdoutLine: {'line': b'copying maincar/ui_push.py -> /home/alex/Desktop/repos/User-Interface/ros2_ws/build/maincar/build/lib/maincar\n'}
+[5.616388] (maincar) StdoutLine: {'line': b'copying maincar/__init__.py -> /home/alex/Desktop/repos/User-Interface/ros2_ws/build/maincar/build/lib/maincar\n'}
+[5.618179] (maincar) StdoutLine: {'line': b'copying maincar/ui_flask.py -> /home/alex/Desktop/repos/User-Interface/ros2_ws/build/maincar/build/lib/maincar\n'}
+[5.640593] (-) TimerEvent: {}
+[5.657964] (maincar) StdoutLine: {'line': b'copying maincar/ui_fetch.py -> /home/alex/Desktop/repos/User-Interface/ros2_ws/build/maincar/build/lib/maincar\n'}
+[5.660665] (maincar) StdoutLine: {'line': b'running install\n'}
+[5.663302] (maincar) StdoutLine: {'line': b'running install_lib\n'}
+[5.670613] (maincar) StdoutLine: {'line': b'creating /home/alex/Desktop/repos/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar\n'}
+[5.671962] (maincar) StdoutLine: {'line': b'copying /home/alex/Desktop/repos/User-Interface/ros2_ws/build/maincar/build/lib/maincar/ui_test.py -> /home/alex/Desktop/repos/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar\n'}
+[5.673142] (maincar) StdoutLine: {'line': b'copying /home/alex/Desktop/repos/User-Interface/ros2_ws/build/maincar/build/lib/maincar/ui_push.py -> /home/alex/Desktop/repos/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar\n'}
+[5.674248] (maincar) StdoutLine: {'line': b'copying /home/alex/Desktop/repos/User-Interface/ros2_ws/build/maincar/build/lib/maincar/__init__.py -> /home/alex/Desktop/repos/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar\n'}
+[5.675287] (maincar) StdoutLine: {'line': b'copying /home/alex/Desktop/repos/User-Interface/ros2_ws/build/maincar/build/lib/maincar/ui_flask.py -> /home/alex/Desktop/repos/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar\n'}
+[5.676479] (maincar) StdoutLine: {'line': b'copying /home/alex/Desktop/repos/User-Interface/ros2_ws/build/maincar/build/lib/maincar/ui_fetch.py -> /home/alex/Desktop/repos/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar\n'}
+[5.681419] (maincar) StdoutLine: {'line': b'byte-compiling /home/alex/Desktop/repos/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar/ui_test.py to ui_test.cpython-310.pyc\n'}
+[5.683907] (maincar) StdoutLine: {'line': b'byte-compiling /home/alex/Desktop/repos/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar/ui_push.py to ui_push.cpython-310.pyc\n'}
+[5.685264] (maincar) StdoutLine: {'line': b'byte-compiling /home/alex/Desktop/repos/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar/__init__.py to __init__.cpython-310.pyc\n'}
+[5.686776] (maincar) StdoutLine: {'line': b'byte-compiling /home/alex/Desktop/repos/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar/ui_flask.py to ui_flask.cpython-310.pyc\n'}
+[5.695045] (maincar) StdoutLine: {'line': b'byte-compiling /home/alex/Desktop/repos/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar/ui_fetch.py to ui_fetch.cpython-310.pyc\n'}
+[5.696329] (maincar) StdoutLine: {'line': b'running install_data\n'}
+[5.697098] (maincar) StdoutLine: {'line': b'creating /home/alex/Desktop/repos/User-Interface/ros2_ws/install/maincar/share/ament_index\n'}
+[5.697735] (maincar) StdoutLine: {'line': b'creating /home/alex/Desktop/repos/User-Interface/ros2_ws/install/maincar/share/ament_index/resource_index\n'}
+[5.698381] (maincar) StdoutLine: {'line': b'creating /home/alex/Desktop/repos/User-Interface/ros2_ws/install/maincar/share/ament_index/resource_index/packages\n'}
+[5.698996] (maincar) StdoutLine: {'line': b'copying resource/maincar -> /home/alex/Desktop/repos/User-Interface/ros2_ws/install/maincar/share/ament_index/resource_index/packages\n'}
+[5.699664] (maincar) StdoutLine: {'line': b'copying package.xml -> /home/alex/Desktop/repos/User-Interface/ros2_ws/install/maincar/share/maincar\n'}
+[5.700724] (maincar) StdoutLine: {'line': b'creating /home/alex/Desktop/repos/User-Interface/ros2_ws/install/maincar/share/maincar/launch\n'}
+[5.701469] (maincar) StdoutLine: {'line': b'copying launch/launch.py -> /home/alex/Desktop/repos/User-Interface/ros2_ws/install/maincar/share/maincar/launch\n'}
+[5.702700] (maincar) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.710939] (maincar) StdoutLine: {'line': b'Copying ../../build/maincar/maincar.egg-info to /home/alex/Desktop/repos/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar-0.0.0-py3.10.egg-info\n'}
+[5.717671] (maincar) StdoutLine: {'line': b'running install_scripts\n'}
+[5.740748] (-) TimerEvent: {}
+[5.813956] (maincar) StdoutLine: {'line': b'Installing ui_flask script to /home/alex/Desktop/repos/User-Interface/ros2_ws/install/maincar/lib/maincar\n'}
+[5.814810] (maincar) StdoutLine: {'line': b'Installing ui_mock_publish script to /home/alex/Desktop/repos/User-Interface/ros2_ws/install/maincar/lib/maincar\n'}
+[5.816684] (maincar) StdoutLine: {'line': b"writing list of installed files to '/home/alex/Desktop/repos/User-Interface/ros2_ws/build/maincar/install.log'\n"}
+[5.840969] (-) TimerEvent: {}
+[5.942028] (-) TimerEvent: {}
+[5.949641] (maincar) CommandEnded: {'returncode': 0}
+[6.000534] (rtos) StdoutLine: {'line': b'-- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[6.042516] (-) TimerEvent: {}
+[6.045342] (maincar) JobEnded: {'identifier': 'maincar', 'rc': 0}
+[6.142734] (-) TimerEvent: {}
+[6.243491] (-) TimerEvent: {}
+[6.344253] (-) TimerEvent: {}
+[6.445145] (-) TimerEvent: {}
+[6.546421] (-) TimerEvent: {}
+[6.638823] (rtos) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[6.646646] (-) TimerEvent: {}
+[6.702318] (rtos) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[6.747066] (-) TimerEvent: {}
+[6.793895] (rtos) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[6.847250] (-) TimerEvent: {}
+[6.910998] (rtos) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.947439] (-) TimerEvent: {}
+[7.048270] (-) TimerEvent: {}
+[7.064738] (rtos) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.148603] (-) TimerEvent: {}
+[7.250796] (-) TimerEvent: {}
+[7.351557] (-) TimerEvent: {}
+[7.452309] (-) TimerEvent: {}
+[7.553126] (-) TimerEvent: {}
+[7.649461] (rtos) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[7.653256] (-) TimerEvent: {}
+[7.684107] (rtos) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[7.753508] (-) TimerEvent: {}
+[7.854297] (-) TimerEvent: {}
+[7.955007] (-) TimerEvent: {}
+[8.055800] (-) TimerEvent: {}
+[8.156646] (-) TimerEvent: {}
+[8.257448] (-) TimerEvent: {}
+[8.358245] (-) TimerEvent: {}
+[8.433263] (rtos) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[8.458422] (-) TimerEvent: {}
+[8.559223] (-) TimerEvent: {}
+[8.659986] (-) TimerEvent: {}
+[8.751218] (rtos) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[8.760142] (-) TimerEvent: {}
+[8.860904] (-) TimerEvent: {}
+[8.961642] (-) TimerEvent: {}
+[9.062815] (-) TimerEvent: {}
+[9.163553] (-) TimerEvent: {}
+[9.256712] (rtos) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[9.263866] (-) TimerEvent: {}
+[9.361084] (rtos) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[9.364018] (-) TimerEvent: {}
+[9.464825] (-) TimerEvent: {}
+[9.565641] (-) TimerEvent: {}
+[9.666530] (-) TimerEvent: {}
+[9.760972] (rtos) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[9.764020] (rtos) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[9.766795] (-) TimerEvent: {}
+[9.867695] (-) TimerEvent: {}
+[9.968594] (-) TimerEvent: {}
+[10.069571] (-) TimerEvent: {}
+[10.170480] (-) TimerEvent: {}
+[10.179762] (rtos) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[10.184667] (rtos) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[10.270755] (-) TimerEvent: {}
+[10.371533] (-) TimerEvent: {}
+[10.472319] (-) TimerEvent: {}
+[10.573094] (-) TimerEvent: {}
+[10.598517] (rtos) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[10.673293] (-) TimerEvent: {}
+[10.774188] (-) TimerEvent: {}
+[10.874971] (-) TimerEvent: {}
+[10.975725] (-) TimerEvent: {}
+[11.076445] (-) TimerEvent: {}
+[11.130042] (rtos) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:53 (message):\n'}
+[11.130730] (rtos) StderrLine: {'line': b"  ament_package_xml() package name 'rtos' in '/package.xml' does not match\n"}
+[11.131376] (rtos) StderrLine: {'line': b"  current PROJECT_NAME 'imu_bridge_qnx'.  You must call project() with the\n"}
+[11.131822] (rtos) StderrLine: {'line': b'  same package name before.\n'}
+[11.132198] (rtos) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[11.132547] (rtos) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package.cmake:63 (ament_package_xml)\n'}
+[11.132894] (rtos) StderrLine: {'line': b'  CMakeLists.txt:36 (ament_package)\n'}
+[11.133208] (rtos) StderrLine: {'line': b'\n'}
+[11.133530] (rtos) StderrLine: {'line': b'\x1b[0m\n'}
+[11.133854] (rtos) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[11.134234] (rtos) StdoutLine: {'line': b'See also "/home/alex/Desktop/repos/User-Interface/ros2_ws/build/rtos/CMakeFiles/CMakeOutput.log".\n'}
+[11.174852] (rtos) CommandEnded: {'returncode': 1}
+[11.176566] (-) TimerEvent: {}
+[11.254573] (rtos) JobEnded: {'identifier': 'rtos', 'rc': 1}
+[11.257978] (-) EventReactorShutdown: {}

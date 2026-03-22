@@ -1,0 +1,4 @@
+Invoking command in '/home/alex/Desktop/repos/User-Interface/ros2_ws/build/rtos': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/alex/Desktop/repos/User-Interface/ros2_ws/build/rtos -- -j4 -l4
+Invoked command in '/home/alex/Desktop/repos/User-Interface/ros2_ws/build/rtos' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/alex/Desktop/repos/User-Interface/ros2_ws/build/rtos -- -j4 -l4
+Invoking command in '/home/alex/Desktop/repos/User-Interface/ros2_ws/build/rtos': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/alex/Desktop/repos/User-Interface/ros2_ws/build/rtos
+Invoked command in '/home/alex/Desktop/repos/User-Interface/ros2_ws/build/rtos' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/alex/Desktop/repos/User-Interface/ros2_ws/build/rtos

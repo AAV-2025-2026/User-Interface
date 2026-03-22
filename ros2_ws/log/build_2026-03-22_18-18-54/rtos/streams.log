@@ -1,0 +1,46 @@
+[1.470s] Invoking command in '/home/alex/Desktop/repos/User-Interface/ros2_ws/build/rtos': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/alex/Desktop/repos/User-Interface/ros2_ws/src/rtos -DCMAKE_INSTALL_PREFIX=/home/alex/Desktop/repos/User-Interface/ros2_ws/install/rtos
+[1.529s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.255s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[2.481s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.496s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.530s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.582s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.648s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.827s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.835s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.023s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.284s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[4.817s] -- Configuring done
+[4.912s] -- Generating done
+[4.942s] -- Build files have been written to: /home/alex/Desktop/repos/User-Interface/ros2_ws/build/rtos
+[4.982s] Invoked command in '/home/alex/Desktop/repos/User-Interface/ros2_ws/build/rtos' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/alex/Desktop/repos/User-Interface/ros2_ws/src/rtos -DCMAKE_INSTALL_PREFIX=/home/alex/Desktop/repos/User-Interface/ros2_ws/install/rtos
+[4.995s] Invoking command in '/home/alex/Desktop/repos/User-Interface/ros2_ws/build/rtos': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/alex/Desktop/repos/User-Interface/ros2_ws/build/rtos -- -j4 -l4
+[5.281s] [ 25%] [32mBuilding CXX object CMakeFiles/test_Pub.dir/src/ui_rtos_pub.cpp.o[0m
+[5.288s] [ 50%] [32mBuilding CXX object CMakeFiles/test_Sub.dir/src/ui_rtos_sub.cpp.o[0m
+[29.690s] [ 75%] [32m[1mLinking CXX executable test_Pub[0m
+[31.248s] [ 75%] Built target test_Pub
+[48.371s] [100%] [32m[1mLinking CXX executable test_Sub[0m
+[50.439s] [100%] Built target test_Sub
+[50.488s] Invoked command in '/home/alex/Desktop/repos/User-Interface/ros2_ws/build/rtos' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/alex/Desktop/repos/User-Interface/ros2_ws/build/rtos -- -j4 -l4
+[50.534s] Invoking command in '/home/alex/Desktop/repos/User-Interface/ros2_ws/build/rtos': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/alex/Desktop/repos/User-Interface/ros2_ws/build/rtos
+[50.566s] -- Install configuration: ""
+[50.568s] -- Installing: /home/alex/Desktop/repos/User-Interface/ros2_ws/install/rtos/lib/rtos/test_Sub
+[50.599s] -- Set runtime path of "/home/alex/Desktop/repos/User-Interface/ros2_ws/install/rtos/lib/rtos/test_Sub" to ""
+[50.600s] -- Installing: /home/alex/Desktop/repos/User-Interface/ros2_ws/install/rtos/lib/rtos/test_Pub
+[50.611s] -- Set runtime path of "/home/alex/Desktop/repos/User-Interface/ros2_ws/install/rtos/lib/rtos/test_Pub" to ""
+[50.612s] -- Installing: /home/alex/Desktop/repos/User-Interface/ros2_ws/install/rtos/share/ament_index/resource_index/package_run_dependencies/rtos
+[50.614s] -- Installing: /home/alex/Desktop/repos/User-Interface/ros2_ws/install/rtos/share/ament_index/resource_index/parent_prefix_path/rtos
+[50.616s] -- Installing: /home/alex/Desktop/repos/User-Interface/ros2_ws/install/rtos/share/rtos/environment/ament_prefix_path.sh
+[50.617s] -- Installing: /home/alex/Desktop/repos/User-Interface/ros2_ws/install/rtos/share/rtos/environment/ament_prefix_path.dsv
+[50.619s] -- Installing: /home/alex/Desktop/repos/User-Interface/ros2_ws/install/rtos/share/rtos/environment/path.sh
+[50.620s] -- Installing: /home/alex/Desktop/repos/User-Interface/ros2_ws/install/rtos/share/rtos/environment/path.dsv
+[50.622s] -- Installing: /home/alex/Desktop/repos/User-Interface/ros2_ws/install/rtos/share/rtos/local_setup.bash
+[50.623s] -- Installing: /home/alex/Desktop/repos/User-Interface/ros2_ws/install/rtos/share/rtos/local_setup.sh
+[50.624s] -- Installing: /home/alex/Desktop/repos/User-Interface/ros2_ws/install/rtos/share/rtos/local_setup.zsh
+[50.626s] -- Installing: /home/alex/Desktop/repos/User-Interface/ros2_ws/install/rtos/share/rtos/local_setup.dsv
+[50.627s] -- Installing: /home/alex/Desktop/repos/User-Interface/ros2_ws/install/rtos/share/rtos/package.dsv
+[50.629s] -- Installing: /home/alex/Desktop/repos/User-Interface/ros2_ws/install/rtos/share/ament_index/resource_index/packages/rtos
+[50.631s] -- Installing: /home/alex/Desktop/repos/User-Interface/ros2_ws/install/rtos/share/rtos/cmake/rtosConfig.cmake
+[50.632s] -- Installing: /home/alex/Desktop/repos/User-Interface/ros2_ws/install/rtos/share/rtos/cmake/rtosConfig-version.cmake
+[50.634s] -- Installing: /home/alex/Desktop/repos/User-Interface/ros2_ws/install/rtos/share/rtos/package.xml
+[50.642s] Invoked command in '/home/alex/Desktop/repos/User-Interface/ros2_ws/build/rtos' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/alex/Desktop/repos/User-Interface/ros2_ws/build/rtos
