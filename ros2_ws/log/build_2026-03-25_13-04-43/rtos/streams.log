@@ -1,0 +1,26 @@
+[0.172s] Invoking command in '/home/alextempel/code/ui/User-Interface/ros2_ws/build/rtos': CMAKE_PREFIX_PATH=/home/alextempel/ros2_ws/install/my_package:/opt/ros/humble /usr/bin/cmake --build /home/alextempel/code/ui/User-Interface/ros2_ws/build/rtos -- -j16 -l16
+[0.234s] [35m[1mConsolidate compiler generated dependencies of target ui_rtos_sub[0m
+[0.235s] [35m[1mConsolidate compiler generated dependencies of target ui_rtos_pub[0m
+[0.247s] [100%] Built target ui_rtos_sub
+[0.247s] [100%] Built target ui_rtos_pub
+[0.255s] Invoked command in '/home/alextempel/code/ui/User-Interface/ros2_ws/build/rtos' returned '0': CMAKE_PREFIX_PATH=/home/alextempel/ros2_ws/install/my_package:/opt/ros/humble /usr/bin/cmake --build /home/alextempel/code/ui/User-Interface/ros2_ws/build/rtos -- -j16 -l16
+[0.263s] Invoking command in '/home/alextempel/code/ui/User-Interface/ros2_ws/build/rtos': CMAKE_PREFIX_PATH=/home/alextempel/ros2_ws/install/my_package:/opt/ros/humble /usr/bin/cmake --install /home/alextempel/code/ui/User-Interface/ros2_ws/build/rtos
+[0.268s] -- Install configuration: ""
+[0.269s] -- Up-to-date: /home/alextempel/code/ui/User-Interface/ros2_ws/install/rtos/lib/rtos/ui_rtos_sub
+[0.270s] -- Up-to-date: /home/alextempel/code/ui/User-Interface/ros2_ws/install/rtos/lib/rtos/ui_rtos_pub
+[0.270s] -- Up-to-date: /home/alextempel/code/ui/User-Interface/ros2_ws/install/rtos/share/ament_index/resource_index/package_run_dependencies/rtos
+[0.270s] -- Up-to-date: /home/alextempel/code/ui/User-Interface/ros2_ws/install/rtos/share/ament_index/resource_index/parent_prefix_path/rtos
+[0.270s] -- Up-to-date: /home/alextempel/code/ui/User-Interface/ros2_ws/install/rtos/share/rtos/environment/ament_prefix_path.sh
+[0.270s] -- Up-to-date: /home/alextempel/code/ui/User-Interface/ros2_ws/install/rtos/share/rtos/environment/ament_prefix_path.dsv
+[0.270s] -- Up-to-date: /home/alextempel/code/ui/User-Interface/ros2_ws/install/rtos/share/rtos/environment/path.sh
+[0.270s] -- Up-to-date: /home/alextempel/code/ui/User-Interface/ros2_ws/install/rtos/share/rtos/environment/path.dsv
+[0.271s] -- Up-to-date: /home/alextempel/code/ui/User-Interface/ros2_ws/install/rtos/share/rtos/local_setup.bash
+[0.271s] -- Up-to-date: /home/alextempel/code/ui/User-Interface/ros2_ws/install/rtos/share/rtos/local_setup.sh
+[0.271s] -- Up-to-date: /home/alextempel/code/ui/User-Interface/ros2_ws/install/rtos/share/rtos/local_setup.zsh
+[0.271s] -- Up-to-date: /home/alextempel/code/ui/User-Interface/ros2_ws/install/rtos/share/rtos/local_setup.dsv
+[0.271s] -- Installing: /home/alextempel/code/ui/User-Interface/ros2_ws/install/rtos/share/rtos/package.dsv
+[0.271s] -- Up-to-date: /home/alextempel/code/ui/User-Interface/ros2_ws/install/rtos/share/ament_index/resource_index/packages/rtos
+[0.271s] -- Up-to-date: /home/alextempel/code/ui/User-Interface/ros2_ws/install/rtos/share/rtos/cmake/rtosConfig.cmake
+[0.271s] -- Up-to-date: /home/alextempel/code/ui/User-Interface/ros2_ws/install/rtos/share/rtos/cmake/rtosConfig-version.cmake
+[0.271s] -- Up-to-date: /home/alextempel/code/ui/User-Interface/ros2_ws/install/rtos/share/rtos/package.xml
+[0.272s] Invoked command in '/home/alextempel/code/ui/User-Interface/ros2_ws/build/rtos' returned '0': CMAKE_PREFIX_PATH=/home/alextempel/ros2_ws/install/my_package:/opt/ros/humble /usr/bin/cmake --install /home/alextempel/code/ui/User-Interface/ros2_ws/build/rtos

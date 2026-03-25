@@ -1,0 +1,49 @@
+[0.687s] Invoking command in '/home/alextempel/code/ui/User-Interface/ros2_ws/src/maincar': PYTHONPATH=/home/alextempel/code/ui/User-Interface/ros2_ws/build/maincar/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alextempel/code/ui/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/maincar build --build-base /home/alextempel/code/ui/User-Interface/ros2_ws/build/maincar/build install --record /home/alextempel/code/ui/User-Interface/ros2_ws/build/maincar/install.log --single-version-externally-managed install_data
+[0.854s] running egg_info
+[0.855s] creating ../../build/maincar/maincar.egg-info
+[0.855s] writing ../../build/maincar/maincar.egg-info/PKG-INFO
+[0.855s] writing dependency_links to ../../build/maincar/maincar.egg-info/dependency_links.txt
+[0.855s] writing entry points to ../../build/maincar/maincar.egg-info/entry_points.txt
+[0.856s] writing requirements to ../../build/maincar/maincar.egg-info/requires.txt
+[0.856s] writing top-level names to ../../build/maincar/maincar.egg-info/top_level.txt
+[0.856s] writing manifest file '../../build/maincar/maincar.egg-info/SOURCES.txt'
+[0.857s] reading manifest file '../../build/maincar/maincar.egg-info/SOURCES.txt'
+[0.857s] writing manifest file '../../build/maincar/maincar.egg-info/SOURCES.txt'
+[0.857s] running build
+[0.857s] running build_py
+[0.857s] creating /home/alextempel/code/ui/User-Interface/ros2_ws/build/maincar/build
+[0.858s] creating /home/alextempel/code/ui/User-Interface/ros2_ws/build/maincar/build/lib
+[0.858s] creating /home/alextempel/code/ui/User-Interface/ros2_ws/build/maincar/build/lib/maincar
+[0.858s] copying maincar/ui_fetch.py -> /home/alextempel/code/ui/User-Interface/ros2_ws/build/maincar/build/lib/maincar
+[0.858s] copying maincar/ui_push.py -> /home/alextempel/code/ui/User-Interface/ros2_ws/build/maincar/build/lib/maincar
+[0.858s] copying maincar/__init__.py -> /home/alextempel/code/ui/User-Interface/ros2_ws/build/maincar/build/lib/maincar
+[0.858s] copying maincar/ui_flask.py -> /home/alextempel/code/ui/User-Interface/ros2_ws/build/maincar/build/lib/maincar
+[0.858s] copying maincar/ui_test.py -> /home/alextempel/code/ui/User-Interface/ros2_ws/build/maincar/build/lib/maincar
+[0.859s] running install
+[0.859s] running install_lib
+[0.859s] creating /home/alextempel/code/ui/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar
+[0.860s] copying /home/alextempel/code/ui/User-Interface/ros2_ws/build/maincar/build/lib/maincar/ui_fetch.py -> /home/alextempel/code/ui/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar
+[0.860s] copying /home/alextempel/code/ui/User-Interface/ros2_ws/build/maincar/build/lib/maincar/ui_push.py -> /home/alextempel/code/ui/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar
+[0.860s] copying /home/alextempel/code/ui/User-Interface/ros2_ws/build/maincar/build/lib/maincar/__init__.py -> /home/alextempel/code/ui/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar
+[0.860s] copying /home/alextempel/code/ui/User-Interface/ros2_ws/build/maincar/build/lib/maincar/ui_flask.py -> /home/alextempel/code/ui/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar
+[0.860s] copying /home/alextempel/code/ui/User-Interface/ros2_ws/build/maincar/build/lib/maincar/ui_test.py -> /home/alextempel/code/ui/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar
+[0.860s] byte-compiling /home/alextempel/code/ui/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar/ui_fetch.py to ui_fetch.cpython-310.pyc
+[0.861s] byte-compiling /home/alextempel/code/ui/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar/ui_push.py to ui_push.cpython-310.pyc
+[0.861s] byte-compiling /home/alextempel/code/ui/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar/__init__.py to __init__.cpython-310.pyc
+[0.861s] byte-compiling /home/alextempel/code/ui/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar/ui_flask.py to ui_flask.cpython-310.pyc
+[0.862s] byte-compiling /home/alextempel/code/ui/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar/ui_test.py to ui_test.cpython-310.pyc
+[0.863s] running install_data
+[0.863s] creating /home/alextempel/code/ui/User-Interface/ros2_ws/install/maincar/share/ament_index
+[0.863s] creating /home/alextempel/code/ui/User-Interface/ros2_ws/install/maincar/share/ament_index/resource_index
+[0.863s] creating /home/alextempel/code/ui/User-Interface/ros2_ws/install/maincar/share/ament_index/resource_index/packages
+[0.863s] copying resource/maincar -> /home/alextempel/code/ui/User-Interface/ros2_ws/install/maincar/share/ament_index/resource_index/packages
+[0.863s] copying package.xml -> /home/alextempel/code/ui/User-Interface/ros2_ws/install/maincar/share/maincar
+[0.864s] creating /home/alextempel/code/ui/User-Interface/ros2_ws/install/maincar/share/maincar/launch
+[0.864s] copying launch/launch.py -> /home/alextempel/code/ui/User-Interface/ros2_ws/install/maincar/share/maincar/launch
+[0.864s] running install_egg_info
+[0.865s] Copying ../../build/maincar/maincar.egg-info to /home/alextempel/code/ui/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar-0.0.0-py3.10.egg-info
+[0.866s] running install_scripts
+[0.881s] Installing ui_flask script to /home/alextempel/code/ui/User-Interface/ros2_ws/install/maincar/lib/maincar
+[0.882s] Installing ui_mock_publish script to /home/alextempel/code/ui/User-Interface/ros2_ws/install/maincar/lib/maincar
+[0.882s] writing list of installed files to '/home/alextempel/code/ui/User-Interface/ros2_ws/build/maincar/install.log'
+[0.899s] Invoked command in '/home/alextempel/code/ui/User-Interface/ros2_ws/src/maincar' returned '0': PYTHONPATH=/home/alextempel/code/ui/User-Interface/ros2_ws/build/maincar/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alextempel/code/ui/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/maincar build --build-base /home/alextempel/code/ui/User-Interface/ros2_ws/build/maincar/build install --record /home/alextempel/code/ui/User-Interface/ros2_ws/build/maincar/install.log --single-version-externally-managed install_data
