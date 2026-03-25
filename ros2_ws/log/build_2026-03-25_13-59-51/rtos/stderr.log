@@ -1,0 +1,13 @@
+In file included from [01m[K/home/alextempel/code/ui/User-Interface/ros2_ws/src/rtos/src/ui_rtos_sub.cpp:13[m[K:
+[01m[K/home/alextempel/code/ui/User-Interface/ros2_ws/src/rtos/src/message_structure.hpp:24:1:[m[K [01;31m[Kerror: [m[Kmultiple types in one declaration
+   24 | [01;31m[Kenum[m[K class SubscriberMessageType : uint8_t {
+      | [01;31m[K^~~~[m[K
+[01m[K/home/alextempel/code/ui/User-Interface/ros2_ws/src/rtos/src/ui_rtos_pub.cpp:17:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kusing[m[K’
+   17 | [01;31m[Kusing[m[K namespace std::chrono_literals;
+      | [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/ui_rtos_pub.dir/build.make:76: CMakeFiles/ui_rtos_pub.dir/src/ui_rtos_pub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/ui_rtos_pub.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/ui_rtos_sub.dir/build.make:76: CMakeFiles/ui_rtos_sub.dir/src/ui_rtos_sub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/ui_rtos_sub.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
