@@ -1,0 +1,46 @@
+[0.226s] Invoking command in '/home/alextempel/code/ui/User-Interface/ros2_ws/build/rtos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alextempel/code/ui/User-Interface/ros2_ws/install/maincar:/home/alextempel/ros2_ws/install/my_package:/opt/ros/humble /usr/bin/cmake --build /home/alextempel/code/ui/User-Interface/ros2_ws/build/rtos -- -j16 -l16
+[0.322s] [35m[1mConsolidate compiler generated dependencies of target ui_rtos_pub[0m
+[0.325s] [35m[1mConsolidate compiler generated dependencies of target ui_rtos_sub[0m
+[0.345s] [ 25%] [32mBuilding CXX object CMakeFiles/ui_rtos_pub.dir/src/ui_rtos_pub.cpp.o[0m
+[0.346s] [ 50%] [32mBuilding CXX object CMakeFiles/ui_rtos_sub.dir/src/ui_rtos_sub.cpp.o[0m
+[2.838s] In file included from [01m[K/home/alextempel/code/ui/User-Interface/ros2_ws/src/rtos/src/ui_rtos_pub.cpp:15[m[K:
+[2.838s] [01m[K/home/alextempel/code/ui/User-Interface/ros2_ws/src/rtos/src/message_structure.hpp:41:17:[m[K [01;35m[Kwarning: [m[K‘[01m[K#pragma pack (pop)[m[K’ encountered without matching ‘[01m[K#pragma pack (push)[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpragmas-Wpragmas]8;;[m[K]
+[2.838s]    41 | #pragma pack(pop[01;35m[K)[m[K
+[2.838s]       |                 [01;35m[K^[m[K
+[2.838s] [01m[K/home/alextempel/code/ui/User-Interface/ros2_ws/src/rtos/src/message_structure.hpp:48:17:[m[K [01;35m[Kwarning: [m[K‘[01m[K#pragma pack (pop)[m[K’ encountered without matching ‘[01m[K#pragma pack (push)[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpragmas-Wpragmas]8;;[m[K]
+[2.838s]    48 | #pragma pack(pop[01;35m[K)[m[K
+[2.838s]       |                 [01;35m[K^[m[K
+[2.856s] In file included from [01m[K/home/alextempel/code/ui/User-Interface/ros2_ws/src/rtos/src/ui_rtos_sub.cpp:13[m[K:
+[2.857s] [01m[K/home/alextempel/code/ui/User-Interface/ros2_ws/src/rtos/src/message_structure.hpp:41:17:[m[K [01;35m[Kwarning: [m[K‘[01m[K#pragma pack (pop)[m[K’ encountered without matching ‘[01m[K#pragma pack (push)[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpragmas-Wpragmas]8;;[m[K]
+[2.857s]    41 | #pragma pack(pop[01;35m[K)[m[K
+[2.857s]       |                 [01;35m[K^[m[K
+[2.857s] [01m[K/home/alextempel/code/ui/User-Interface/ros2_ws/src/rtos/src/message_structure.hpp:48:17:[m[K [01;35m[Kwarning: [m[K‘[01m[K#pragma pack (pop)[m[K’ encountered without matching ‘[01m[K#pragma pack (push)[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpragmas-Wpragmas]8;;[m[K]
+[2.857s]    48 | #pragma pack(pop[01;35m[K)[m[K
+[2.857s]       |                 [01;35m[K^[m[K
+[5.202s] [ 75%] [32m[1mLinking CXX executable ui_rtos_pub[0m
+[5.544s] [ 75%] Built target ui_rtos_pub
+[9.287s] [100%] [32m[1mLinking CXX executable ui_rtos_sub[0m
+[9.775s] [100%] Built target ui_rtos_sub
+[9.789s] Invoked command in '/home/alextempel/code/ui/User-Interface/ros2_ws/build/rtos' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alextempel/code/ui/User-Interface/ros2_ws/install/maincar:/home/alextempel/ros2_ws/install/my_package:/opt/ros/humble /usr/bin/cmake --build /home/alextempel/code/ui/User-Interface/ros2_ws/build/rtos -- -j16 -l16
+[9.798s] Invoking command in '/home/alextempel/code/ui/User-Interface/ros2_ws/build/rtos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alextempel/code/ui/User-Interface/ros2_ws/install/maincar:/home/alextempel/ros2_ws/install/my_package:/opt/ros/humble /usr/bin/cmake --install /home/alextempel/code/ui/User-Interface/ros2_ws/build/rtos
+[9.805s] -- Install configuration: ""
+[9.806s] -- Installing: /home/alextempel/code/ui/User-Interface/ros2_ws/install/rtos/lib/rtos/ui_rtos_sub
+[9.810s] -- Set runtime path of "/home/alextempel/code/ui/User-Interface/ros2_ws/install/rtos/lib/rtos/ui_rtos_sub" to ""
+[9.810s] -- Installing: /home/alextempel/code/ui/User-Interface/ros2_ws/install/rtos/lib/rtos/ui_rtos_pub
+[9.813s] -- Set runtime path of "/home/alextempel/code/ui/User-Interface/ros2_ws/install/rtos/lib/rtos/ui_rtos_pub" to ""
+[9.813s] -- Up-to-date: /home/alextempel/code/ui/User-Interface/ros2_ws/install/rtos/share/ament_index/resource_index/package_run_dependencies/rtos
+[9.813s] -- Up-to-date: /home/alextempel/code/ui/User-Interface/ros2_ws/install/rtos/share/ament_index/resource_index/parent_prefix_path/rtos
+[9.813s] -- Up-to-date: /home/alextempel/code/ui/User-Interface/ros2_ws/install/rtos/share/rtos/environment/ament_prefix_path.sh
+[9.813s] -- Up-to-date: /home/alextempel/code/ui/User-Interface/ros2_ws/install/rtos/share/rtos/environment/ament_prefix_path.dsv
+[9.813s] -- Up-to-date: /home/alextempel/code/ui/User-Interface/ros2_ws/install/rtos/share/rtos/environment/path.sh
+[9.813s] -- Up-to-date: /home/alextempel/code/ui/User-Interface/ros2_ws/install/rtos/share/rtos/environment/path.dsv
+[9.813s] -- Up-to-date: /home/alextempel/code/ui/User-Interface/ros2_ws/install/rtos/share/rtos/local_setup.bash
+[9.813s] -- Up-to-date: /home/alextempel/code/ui/User-Interface/ros2_ws/install/rtos/share/rtos/local_setup.sh
+[9.814s] -- Up-to-date: /home/alextempel/code/ui/User-Interface/ros2_ws/install/rtos/share/rtos/local_setup.zsh
+[9.814s] -- Up-to-date: /home/alextempel/code/ui/User-Interface/ros2_ws/install/rtos/share/rtos/local_setup.dsv
+[9.814s] -- Installing: /home/alextempel/code/ui/User-Interface/ros2_ws/install/rtos/share/rtos/package.dsv
+[9.814s] -- Up-to-date: /home/alextempel/code/ui/User-Interface/ros2_ws/install/rtos/share/ament_index/resource_index/packages/rtos
+[9.814s] -- Up-to-date: /home/alextempel/code/ui/User-Interface/ros2_ws/install/rtos/share/rtos/cmake/rtosConfig.cmake
+[9.814s] -- Up-to-date: /home/alextempel/code/ui/User-Interface/ros2_ws/install/rtos/share/rtos/cmake/rtosConfig-version.cmake
+[9.814s] -- Up-to-date: /home/alextempel/code/ui/User-Interface/ros2_ws/install/rtos/share/rtos/package.xml
+[9.818s] Invoked command in '/home/alextempel/code/ui/User-Interface/ros2_ws/build/rtos' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alextempel/code/ui/User-Interface/ros2_ws/install/maincar:/home/alextempel/ros2_ws/install/my_package:/opt/ros/humble /usr/bin/cmake --install /home/alextempel/code/ui/User-Interface/ros2_ws/build/rtos
