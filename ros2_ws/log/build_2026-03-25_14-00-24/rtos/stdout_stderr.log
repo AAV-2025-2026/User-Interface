@@ -1,0 +1,28 @@
+[35m[1mConsolidate compiler generated dependencies of target ui_rtos_pub[0m
+[35m[1mConsolidate compiler generated dependencies of target ui_rtos_sub[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ui_rtos_sub.dir/src/ui_rtos_sub.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ui_rtos_pub.dir/src/ui_rtos_pub.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable ui_rtos_pub[0m
+[ 75%] Built target ui_rtos_pub
+[100%] [32m[1mLinking CXX executable ui_rtos_sub[0m
+[100%] Built target ui_rtos_sub
+-- Install configuration: ""
+-- Installing: /home/alextempel/code/ui/User-Interface/ros2_ws/install/rtos/lib/rtos/ui_rtos_sub
+-- Set runtime path of "/home/alextempel/code/ui/User-Interface/ros2_ws/install/rtos/lib/rtos/ui_rtos_sub" to ""
+-- Installing: /home/alextempel/code/ui/User-Interface/ros2_ws/install/rtos/lib/rtos/ui_rtos_pub
+-- Set runtime path of "/home/alextempel/code/ui/User-Interface/ros2_ws/install/rtos/lib/rtos/ui_rtos_pub" to ""
+-- Up-to-date: /home/alextempel/code/ui/User-Interface/ros2_ws/install/rtos/share/ament_index/resource_index/package_run_dependencies/rtos
+-- Up-to-date: /home/alextempel/code/ui/User-Interface/ros2_ws/install/rtos/share/ament_index/resource_index/parent_prefix_path/rtos
+-- Up-to-date: /home/alextempel/code/ui/User-Interface/ros2_ws/install/rtos/share/rtos/environment/ament_prefix_path.sh
+-- Up-to-date: /home/alextempel/code/ui/User-Interface/ros2_ws/install/rtos/share/rtos/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/alextempel/code/ui/User-Interface/ros2_ws/install/rtos/share/rtos/environment/path.sh
+-- Up-to-date: /home/alextempel/code/ui/User-Interface/ros2_ws/install/rtos/share/rtos/environment/path.dsv
+-- Up-to-date: /home/alextempel/code/ui/User-Interface/ros2_ws/install/rtos/share/rtos/local_setup.bash
+-- Up-to-date: /home/alextempel/code/ui/User-Interface/ros2_ws/install/rtos/share/rtos/local_setup.sh
+-- Up-to-date: /home/alextempel/code/ui/User-Interface/ros2_ws/install/rtos/share/rtos/local_setup.zsh
+-- Up-to-date: /home/alextempel/code/ui/User-Interface/ros2_ws/install/rtos/share/rtos/local_setup.dsv
+-- Installing: /home/alextempel/code/ui/User-Interface/ros2_ws/install/rtos/share/rtos/package.dsv
+-- Up-to-date: /home/alextempel/code/ui/User-Interface/ros2_ws/install/rtos/share/ament_index/resource_index/packages/rtos
+-- Up-to-date: /home/alextempel/code/ui/User-Interface/ros2_ws/install/rtos/share/rtos/cmake/rtosConfig.cmake
+-- Up-to-date: /home/alextempel/code/ui/User-Interface/ros2_ws/install/rtos/share/rtos/cmake/rtosConfig-version.cmake
+-- Up-to-date: /home/alextempel/code/ui/User-Interface/ros2_ws/install/rtos/share/rtos/package.xml

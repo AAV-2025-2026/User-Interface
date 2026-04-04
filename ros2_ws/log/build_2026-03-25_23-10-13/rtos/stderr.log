@@ -1,0 +1,14 @@
+In file included from [01m[K/home/alextempel/code/ui/User-Interface/ros2_ws/src/rtos/src/ui_rtos_pub.cpp:15[m[K:
+[01m[K/home/alextempel/code/ui/User-Interface/ros2_ws/src/rtos/src/message_structure.hpp:41:17:[m[K [01;35m[Kwarning: [m[K‘[01m[K#pragma pack (pop)[m[K’ encountered without matching ‘[01m[K#pragma pack (push)[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpragmas-Wpragmas]8;;[m[K]
+   41 | #pragma pack(pop[01;35m[K)[m[K
+      |                 [01;35m[K^[m[K
+[01m[K/home/alextempel/code/ui/User-Interface/ros2_ws/src/rtos/src/message_structure.hpp:48:17:[m[K [01;35m[Kwarning: [m[K‘[01m[K#pragma pack (pop)[m[K’ encountered without matching ‘[01m[K#pragma pack (push)[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpragmas-Wpragmas]8;;[m[K]
+   48 | #pragma pack(pop[01;35m[K)[m[K
+      |                 [01;35m[K^[m[K
+In file included from [01m[K/home/alextempel/code/ui/User-Interface/ros2_ws/src/rtos/src/ui_rtos_sub.cpp:13[m[K:
+[01m[K/home/alextempel/code/ui/User-Interface/ros2_ws/src/rtos/src/message_structure.hpp:41:17:[m[K [01;35m[Kwarning: [m[K‘[01m[K#pragma pack (pop)[m[K’ encountered without matching ‘[01m[K#pragma pack (push)[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpragmas-Wpragmas]8;;[m[K]
+   41 | #pragma pack(pop[01;35m[K)[m[K
+      |                 [01;35m[K^[m[K
+[01m[K/home/alextempel/code/ui/User-Interface/ros2_ws/src/rtos/src/message_structure.hpp:48:17:[m[K [01;35m[Kwarning: [m[K‘[01m[K#pragma pack (pop)[m[K’ encountered without matching ‘[01m[K#pragma pack (push)[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpragmas-Wpragmas]8;;[m[K]
+   48 | #pragma pack(pop[01;35m[K)[m[K
+      |                 [01;35m[K^[m[K

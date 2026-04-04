@@ -1,0 +1,19 @@
+[0.204s] Invoking command in '/home/alextempel/code/ui/User-Interface/ros2_ws/build/rtos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alextempel/code/ui/User-Interface/ros2_ws/install/maincar:/home/alextempel/ros2_ws/install/my_package:/opt/ros/humble /usr/bin/cmake --build /home/alextempel/code/ui/User-Interface/ros2_ws/build/rtos -- -j16 -l16
+[0.238s] [35m[1mConsolidate compiler generated dependencies of target ui_rtos_pub[0m
+[0.238s] [35m[1mConsolidate compiler generated dependencies of target ui_rtos_sub[0m
+[0.253s] [ 50%] [32mBuilding CXX object CMakeFiles/ui_rtos_pub.dir/src/ui_rtos_pub.cpp.o[0m
+[0.253s] [ 50%] [32mBuilding CXX object CMakeFiles/ui_rtos_sub.dir/src/ui_rtos_sub.cpp.o[0m
+[2.223s] In file included from [01m[K/home/alextempel/code/ui/User-Interface/ros2_ws/src/rtos/src/ui_rtos_sub.cpp:13[m[K:
+[2.223s] [01m[K/home/alextempel/code/ui/User-Interface/ros2_ws/src/rtos/src/message_structure.hpp:24:1:[m[K [01;31m[Kerror: [m[Kmultiple types in one declaration
+[2.223s]    24 | [01;31m[Kenum[m[K class SubscriberMessageType : uint8_t {
+[2.223s]       | [01;31m[K^~~~[m[K
+[2.223s] [01m[K/home/alextempel/code/ui/User-Interface/ros2_ws/src/rtos/src/ui_rtos_pub.cpp:17:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kusing[m[K’
+[2.223s]    17 | [01;31m[Kusing[m[K namespace std::chrono_literals;
+[2.223s]       | [01;31m[K^~~~~[m[K
+[3.105s] gmake[2]: *** [CMakeFiles/ui_rtos_pub.dir/build.make:76: CMakeFiles/ui_rtos_pub.dir/src/ui_rtos_pub.cpp.o] Error 1
+[3.105s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/ui_rtos_pub.dir/all] Error 2
+[3.105s] gmake[1]: *** Waiting for unfinished jobs....
+[4.739s] gmake[2]: *** [CMakeFiles/ui_rtos_sub.dir/build.make:76: CMakeFiles/ui_rtos_sub.dir/src/ui_rtos_sub.cpp.o] Error 1
+[4.739s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/ui_rtos_sub.dir/all] Error 2
+[4.739s] gmake: *** [Makefile:146: all] Error 2
+[4.742s] Invoked command in '/home/alextempel/code/ui/User-Interface/ros2_ws/build/rtos' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alextempel/code/ui/User-Interface/ros2_ws/install/maincar:/home/alextempel/ros2_ws/install/my_package:/opt/ros/humble /usr/bin/cmake --build /home/alextempel/code/ui/User-Interface/ros2_ws/build/rtos -- -j16 -l16

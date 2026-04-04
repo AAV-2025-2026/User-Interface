@@ -1,0 +1,164 @@
+[0.000000] (-) TimerEvent: {}
+[0.000172] (maincar) JobQueued: {'identifier': 'maincar', 'dependencies': OrderedDict()}
+[0.000195] (rtos) JobQueued: {'identifier': 'rtos', 'dependencies': OrderedDict()}
+[0.000209] (maincar) JobStarted: {'identifier': 'maincar'}
+[0.014403] (rtos) JobStarted: {'identifier': 'rtos'}
+[0.098792] (-) TimerEvent: {}
+[0.199326] (-) TimerEvent: {}
+[0.243330] (rtos) JobProgress: {'identifier': 'rtos', 'progress': 'cmake'}
+[0.244737] (rtos) JobProgress: {'identifier': 'rtos', 'progress': 'build'}
+[0.245460] (rtos) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/alextempel/code/ui/User-Interface/ros2_ws/build/rtos', '--', '-j16', '-l16'], 'cwd': '/home/alextempel/code/ui/User-Interface/ros2_ws/build/rtos', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'alextempel'), ('SSH_AGENT_PID', '36649'), ('GIT_ASKPASS', '/home/alextempel/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/alextempel'), ('OLDPWD', '/home/alextempel/code/ui/User-Interface'), ('TERM_PROGRAM_VERSION', '1.112.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-7197deb4-e535-4744-931a-d51287c3c730.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/alextempel/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/alextempel/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/alextempel/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/alextempel/code/ui/User-Interface/ros2_ws/install:/home/alextempel/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'alextempel'), ('NAME', 'XPSComputer'), ('WSL_INTEROP', '/run/WSL/419_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/alextempel/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/alextempel/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/alextempel/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/bin/remote-cli:/home/alextempel/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/alexd/AppData/Local/Programs/Microsoft VS Code:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Go/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/PowerToys/DSCModules/:/mnt/c/Program Files/PuTTY/:/mnt/c/Users/alexd/AppData/Local/Programs/Python/Python313/Scripts/:/mnt/c/Users/alexd/AppData/Local/Programs/Python/Python313/:/mnt/c/Users/alexd/AppData/Local/Programs/oh-my-posh/bin/:/mnt/c/Users/alexd/.cargo/bin:/mnt/c/Users/alexd/AppData/Local/Programs/Python/Python312-32/Scripts/:/mnt/c/Users/alexd/AppData/Local/Programs/Python/Python312-32/:/mnt/c/Users/alexd/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/alexd/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/alexd/go/bin:/mnt/c/Users/alexd/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/alexd/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/JetBrains/CLion 2025.1.3/bin:/mnt/c/Users/alexd/.dotnet/tools:/mnt/c/intelFPGA/18.1/modelsim_ase/win32aloem:/mnt/c/Users/alexd/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe:/snap/bin:/home/alextempel/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/alextempel/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-8abb798eca90bb5d.txt'), ('LANG', 'C.UTF-8'), ('PYTHONSTARTUP', '/home/alextempel/.vscode-server/data/User/workspaceStorage/908de715da9cbbc886825a62d1ab2859/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-7521cc78c5.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXWN7lmZ/agent.36648'), ('AMENT_PREFIX_PATH', '/home/alextempel/code/ui/User-Interface/ros2_ws/install/rtos:/home/alextempel/code/ui/User-Interface/ros2_ws/install/maincar:/home/alextempel/ros2_ws/install/my_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/alextempel/code/ui/User-Interface/ros2_ws/build/rtos'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/alextempel/code/ui/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages:/home/alextempel/ros2_ws/install/my_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/alextempel/code/ui/User-Interface/ros2_ws/install/rtos:/home/alextempel/code/ui/User-Interface/ros2_ws/install/maincar:/home/alextempel/ros2_ws/install/my_package:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up:VSCODE_SERVER_TAR/up')]), 'shell': False}
+[0.299528] (-) TimerEvent: {}
+[0.329360] (rtos) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ui_rtos_pub\x1b[0m\n'}
+[0.329872] (rtos) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ui_rtos_sub\x1b[0m\n'}
+[0.348135] (rtos) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/ui_rtos_pub.dir/src/ui_rtos_pub.cpp.o\x1b[0m\n'}
+[0.348515] (rtos) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ui_rtos_sub.dir/src/ui_rtos_sub.cpp.o\x1b[0m\n'}
+[0.399684] (-) TimerEvent: {}
+[0.500063] (-) TimerEvent: {}
+[0.600527] (-) TimerEvent: {}
+[0.701069] (-) TimerEvent: {}
+[0.801629] (-) TimerEvent: {}
+[0.840468] (maincar) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/maincar', 'build', '--build-base', '/home/alextempel/code/ui/User-Interface/ros2_ws/build/maincar/build', 'install', '--record', '/home/alextempel/code/ui/User-Interface/ros2_ws/build/maincar/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/alextempel/code/ui/User-Interface/ros2_ws/src/maincar', 'env': {'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'alextempel', 'SSH_AGENT_PID': '36649', 'GIT_ASKPASS': '/home/alextempel/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/alextempel', 'OLDPWD': '/home/alextempel/code/ui/User-Interface', 'TERM_PROGRAM_VERSION': '1.112.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-7197deb4-e535-4744-931a-d51287c3c730.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/alextempel/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/alextempel/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/alextempel/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/alextempel/code/ui/User-Interface/ros2_ws/install:/home/alextempel/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'alextempel', 'NAME': 'XPSComputer', 'WSL_INTEROP': '/run/WSL/419_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/alextempel/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/alextempel/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/alextempel/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/bin/remote-cli:/home/alextempel/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/alexd/AppData/Local/Programs/Microsoft VS Code:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Go/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/PowerToys/DSCModules/:/mnt/c/Program Files/PuTTY/:/mnt/c/Users/alexd/AppData/Local/Programs/Python/Python313/Scripts/:/mnt/c/Users/alexd/AppData/Local/Programs/Python/Python313/:/mnt/c/Users/alexd/AppData/Local/Programs/oh-my-posh/bin/:/mnt/c/Users/alexd/.cargo/bin:/mnt/c/Users/alexd/AppData/Local/Programs/Python/Python312-32/Scripts/:/mnt/c/Users/alexd/AppData/Local/Programs/Python/Python312-32/:/mnt/c/Users/alexd/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/alexd/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/alexd/go/bin:/mnt/c/Users/alexd/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/alexd/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/JetBrains/CLion 2025.1.3/bin:/mnt/c/Users/alexd/.dotnet/tools:/mnt/c/intelFPGA/18.1/modelsim_ase/win32aloem:/mnt/c/Users/alexd/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe:/snap/bin:/home/alextempel/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/alextempel/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-8abb798eca90bb5d.txt', 'LANG': 'C.UTF-8', 'PYTHONSTARTUP': '/home/alextempel/.vscode-server/data/User/workspaceStorage/908de715da9cbbc886825a62d1ab2859/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-7521cc78c5.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/ssh-XXXXXXWN7lmZ/agent.36648', 'AMENT_PREFIX_PATH': '/home/alextempel/code/ui/User-Interface/ros2_ws/install/rtos:/home/alextempel/code/ui/User-Interface/ros2_ws/install/maincar:/home/alextempel/ros2_ws/install/my_package:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/alextempel/code/ui/User-Interface/ros2_ws/build/maincar', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/alextempel/code/ui/User-Interface/ros2_ws/build/maincar/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alextempel/code/ui/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages:/home/alextempel/code/ui/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages:/home/alextempel/ros2_ws/install/my_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/alextempel/code/ui/User-Interface/ros2_ws/install/rtos', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up:VSCODE_SERVER_TAR/up'}, 'shell': False}
+[0.901901] (-) TimerEvent: {}
+[1.002737] (-) TimerEvent: {}
+[1.075172] (maincar) StdoutLine: {'line': b'running egg_info\n'}
+[1.075785] (maincar) StdoutLine: {'line': b'writing ../../build/maincar/maincar.egg-info/PKG-INFO\n'}
+[1.076198] (maincar) StdoutLine: {'line': b'writing dependency_links to ../../build/maincar/maincar.egg-info/dependency_links.txt\n'}
+[1.076343] (maincar) StdoutLine: {'line': b'writing entry points to ../../build/maincar/maincar.egg-info/entry_points.txt\n'}
+[1.076586] (maincar) StdoutLine: {'line': b'writing requirements to ../../build/maincar/maincar.egg-info/requires.txt\n'}
+[1.076708] (maincar) StdoutLine: {'line': b'writing top-level names to ../../build/maincar/maincar.egg-info/top_level.txt\n'}
+[1.078271] (maincar) StdoutLine: {'line': b"reading manifest file '../../build/maincar/maincar.egg-info/SOURCES.txt'\n"}
+[1.080589] (maincar) StdoutLine: {'line': b"writing manifest file '../../build/maincar/maincar.egg-info/SOURCES.txt'\n"}
+[1.081274] (maincar) StdoutLine: {'line': b'running build\n'}
+[1.081583] (maincar) StdoutLine: {'line': b'running build_py\n'}
+[1.081963] (maincar) StdoutLine: {'line': b'running install\n'}
+[1.082217] (maincar) StdoutLine: {'line': b'running install_lib\n'}
+[1.083997] (maincar) StdoutLine: {'line': b'running install_data\n'}
+[1.084219] (maincar) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.085696] (maincar) StdoutLine: {'line': b"removing '/home/alextempel/code/ui/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.086868] (maincar) StdoutLine: {'line': b'Copying ../../build/maincar/maincar.egg-info to /home/alextempel/code/ui/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages/maincar-0.0.0-py3.10.egg-info\n'}
+[1.088892] (maincar) StdoutLine: {'line': b'running install_scripts\n'}
+[1.102933] (-) TimerEvent: {}
+[1.109381] (maincar) StdoutLine: {'line': b'Installing ui_flask script to /home/alextempel/code/ui/User-Interface/ros2_ws/install/maincar/lib/maincar\n'}
+[1.109729] (maincar) StdoutLine: {'line': b'Installing ui_mock_publish script to /home/alextempel/code/ui/User-Interface/ros2_ws/install/maincar/lib/maincar\n'}
+[1.110037] (maincar) StdoutLine: {'line': b"writing list of installed files to '/home/alextempel/code/ui/User-Interface/ros2_ws/build/maincar/install.log'\n"}
+[1.130245] (maincar) CommandEnded: {'returncode': 0}
+[1.151827] (maincar) JobEnded: {'identifier': 'maincar', 'rc': 0}
+[1.203235] (-) TimerEvent: {}
+[1.303908] (-) TimerEvent: {}
+[1.404693] (-) TimerEvent: {}
+[1.505370] (-) TimerEvent: {}
+[1.605922] (-) TimerEvent: {}
+[1.706531] (-) TimerEvent: {}
+[1.807279] (-) TimerEvent: {}
+[1.908185] (-) TimerEvent: {}
+[2.009307] (-) TimerEvent: {}
+[2.110028] (-) TimerEvent: {}
+[2.210860] (-) TimerEvent: {}
+[2.311391] (-) TimerEvent: {}
+[2.412087] (-) TimerEvent: {}
+[2.512900] (-) TimerEvent: {}
+[2.613689] (-) TimerEvent: {}
+[2.714634] (-) TimerEvent: {}
+[2.815517] (-) TimerEvent: {}
+[2.916241] (-) TimerEvent: {}
+[3.017008] (-) TimerEvent: {}
+[3.117928] (-) TimerEvent: {}
+[3.218649] (-) TimerEvent: {}
+[3.319369] (-) TimerEvent: {}
+[3.419974] (-) TimerEvent: {}
+[3.520776] (-) TimerEvent: {}
+[3.621814] (-) TimerEvent: {}
+[3.722848] (-) TimerEvent: {}
+[3.823697] (-) TimerEvent: {}
+[3.924672] (-) TimerEvent: {}
+[4.025617] (-) TimerEvent: {}
+[4.126583] (-) TimerEvent: {}
+[4.227169] (-) TimerEvent: {}
+[4.327703] (-) TimerEvent: {}
+[4.428268] (-) TimerEvent: {}
+[4.528983] (-) TimerEvent: {}
+[4.629556] (-) TimerEvent: {}
+[4.730346] (-) TimerEvent: {}
+[4.830994] (-) TimerEvent: {}
+[4.931699] (-) TimerEvent: {}
+[5.032476] (-) TimerEvent: {}
+[5.133283] (-) TimerEvent: {}
+[5.234283] (-) TimerEvent: {}
+[5.334938] (-) TimerEvent: {}
+[5.347038] (rtos) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable ui_rtos_pub\x1b[0m\n'}
+[5.435064] (-) TimerEvent: {}
+[5.535662] (-) TimerEvent: {}
+[5.636508] (-) TimerEvent: {}
+[5.728025] (rtos) StdoutLine: {'line': b'[ 75%] Built target ui_rtos_pub\n'}
+[5.736860] (-) TimerEvent: {}
+[5.837616] (-) TimerEvent: {}
+[5.938464] (-) TimerEvent: {}
+[6.039464] (-) TimerEvent: {}
+[6.140184] (-) TimerEvent: {}
+[6.240943] (-) TimerEvent: {}
+[6.341467] (-) TimerEvent: {}
+[6.442062] (-) TimerEvent: {}
+[6.542574] (-) TimerEvent: {}
+[6.643148] (-) TimerEvent: {}
+[6.746562] (-) TimerEvent: {}
+[6.847113] (-) TimerEvent: {}
+[6.947789] (-) TimerEvent: {}
+[7.048629] (-) TimerEvent: {}
+[7.149703] (-) TimerEvent: {}
+[7.250300] (-) TimerEvent: {}
+[7.351332] (-) TimerEvent: {}
+[7.452214] (-) TimerEvent: {}
+[7.553038] (-) TimerEvent: {}
+[7.653794] (-) TimerEvent: {}
+[7.754620] (-) TimerEvent: {}
+[7.855192] (-) TimerEvent: {}
+[7.956166] (-) TimerEvent: {}
+[8.056963] (-) TimerEvent: {}
+[8.157805] (-) TimerEvent: {}
+[8.258773] (-) TimerEvent: {}
+[8.359716] (-) TimerEvent: {}
+[8.460437] (-) TimerEvent: {}
+[8.561332] (-) TimerEvent: {}
+[8.662282] (-) TimerEvent: {}
+[8.763003] (-) TimerEvent: {}
+[8.863777] (-) TimerEvent: {}
+[8.964387] (-) TimerEvent: {}
+[9.065214] (-) TimerEvent: {}
+[9.165942] (-) TimerEvent: {}
+[9.266601] (-) TimerEvent: {}
+[9.367352] (-) TimerEvent: {}
+[9.468074] (-) TimerEvent: {}
+[9.525381] (rtos) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ui_rtos_sub\x1b[0m\n'}
+[9.568329] (-) TimerEvent: {}
+[9.668917] (-) TimerEvent: {}
+[9.769672] (-) TimerEvent: {}
+[9.870631] (-) TimerEvent: {}
+[9.971301] (-) TimerEvent: {}
+[10.011145] (rtos) StdoutLine: {'line': b'[100%] Built target ui_rtos_sub\n'}
+[10.022045] (rtos) CommandEnded: {'returncode': 0}
+[10.024660] (rtos) JobProgress: {'identifier': 'rtos', 'progress': 'install'}
+[10.033360] (rtos) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/alextempel/code/ui/User-Interface/ros2_ws/build/rtos'], 'cwd': '/home/alextempel/code/ui/User-Interface/ros2_ws/build/rtos', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'alextempel'), ('SSH_AGENT_PID', '36649'), ('GIT_ASKPASS', '/home/alextempel/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/alextempel'), ('OLDPWD', '/home/alextempel/code/ui/User-Interface'), ('TERM_PROGRAM_VERSION', '1.112.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-7197deb4-e535-4744-931a-d51287c3c730.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/alextempel/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/alextempel/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/alextempel/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/alextempel/code/ui/User-Interface/ros2_ws/install:/home/alextempel/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'alextempel'), ('NAME', 'XPSComputer'), ('WSL_INTEROP', '/run/WSL/419_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/alextempel/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/alextempel/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/alextempel/.vscode-server/bin/07ff9d6178ede9a1bd12ad3399074d726ebe6e43/bin/remote-cli:/home/alextempel/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/alexd/AppData/Local/Programs/Microsoft VS Code:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Go/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/PowerToys/DSCModules/:/mnt/c/Program Files/PuTTY/:/mnt/c/Users/alexd/AppData/Local/Programs/Python/Python313/Scripts/:/mnt/c/Users/alexd/AppData/Local/Programs/Python/Python313/:/mnt/c/Users/alexd/AppData/Local/Programs/oh-my-posh/bin/:/mnt/c/Users/alexd/.cargo/bin:/mnt/c/Users/alexd/AppData/Local/Programs/Python/Python312-32/Scripts/:/mnt/c/Users/alexd/AppData/Local/Programs/Python/Python312-32/:/mnt/c/Users/alexd/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/alexd/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/alexd/go/bin:/mnt/c/Users/alexd/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/alexd/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/JetBrains/CLion 2025.1.3/bin:/mnt/c/Users/alexd/.dotnet/tools:/mnt/c/intelFPGA/18.1/modelsim_ase/win32aloem:/mnt/c/Users/alexd/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe:/snap/bin:/home/alextempel/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/alextempel/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-8abb798eca90bb5d.txt'), ('LANG', 'C.UTF-8'), ('PYTHONSTARTUP', '/home/alextempel/.vscode-server/data/User/workspaceStorage/908de715da9cbbc886825a62d1ab2859/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-7521cc78c5.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXWN7lmZ/agent.36648'), ('AMENT_PREFIX_PATH', '/home/alextempel/code/ui/User-Interface/ros2_ws/install/rtos:/home/alextempel/code/ui/User-Interface/ros2_ws/install/maincar:/home/alextempel/ros2_ws/install/my_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/alextempel/code/ui/User-Interface/ros2_ws/build/rtos'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/alextempel/code/ui/User-Interface/ros2_ws/install/maincar/lib/python3.10/site-packages:/home/alextempel/ros2_ws/install/my_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/alextempel/code/ui/User-Interface/ros2_ws/install/rtos:/home/alextempel/code/ui/User-Interface/ros2_ws/install/maincar:/home/alextempel/ros2_ws/install/my_package:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up:VSCODE_SERVER_TAR/up')]), 'shell': False}
+[10.042072] (rtos) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.044378] (rtos) StdoutLine: {'line': b'-- Installing: /home/alextempel/code/ui/User-Interface/ros2_ws/install/rtos/lib/rtos/ui_rtos_sub\n'}
+[10.049256] (rtos) StdoutLine: {'line': b'-- Set runtime path of "/home/alextempel/code/ui/User-Interface/ros2_ws/install/rtos/lib/rtos/ui_rtos_sub" to ""\n'}
+[10.050331] (rtos) StdoutLine: {'line': b'-- Installing: /home/alextempel/code/ui/User-Interface/ros2_ws/install/rtos/lib/rtos/ui_rtos_pub\n'}
+[10.051607] (rtos) StdoutLine: {'line': b'-- Set runtime path of "/home/alextempel/code/ui/User-Interface/ros2_ws/install/rtos/lib/rtos/ui_rtos_pub" to ""\n'}
+[10.051705] (rtos) StdoutLine: {'line': b'-- Up-to-date: /home/alextempel/code/ui/User-Interface/ros2_ws/install/rtos/share/ament_index/resource_index/package_run_dependencies/rtos\n'}
+[10.051757] (rtos) StdoutLine: {'line': b'-- Up-to-date: /home/alextempel/code/ui/User-Interface/ros2_ws/install/rtos/share/ament_index/resource_index/parent_prefix_path/rtos\n'}
+[10.051839] (rtos) StdoutLine: {'line': b'-- Up-to-date: /home/alextempel/code/ui/User-Interface/ros2_ws/install/rtos/share/rtos/environment/ament_prefix_path.sh\n'}
+[10.051887] (rtos) StdoutLine: {'line': b'-- Up-to-date: /home/alextempel/code/ui/User-Interface/ros2_ws/install/rtos/share/rtos/environment/ament_prefix_path.dsv\n'}
+[10.052049] (rtos) StdoutLine: {'line': b'-- Up-to-date: /home/alextempel/code/ui/User-Interface/ros2_ws/install/rtos/share/rtos/environment/path.sh\n'}
+[10.052104] (rtos) StdoutLine: {'line': b'-- Up-to-date: /home/alextempel/code/ui/User-Interface/ros2_ws/install/rtos/share/rtos/environment/path.dsv\n'}
+[10.052148] (rtos) StdoutLine: {'line': b'-- Up-to-date: /home/alextempel/code/ui/User-Interface/ros2_ws/install/rtos/share/rtos/local_setup.bash\n'}
+[10.052190] (rtos) StdoutLine: {'line': b'-- Up-to-date: /home/alextempel/code/ui/User-Interface/ros2_ws/install/rtos/share/rtos/local_setup.sh\n'}
+[10.052233] (rtos) StdoutLine: {'line': b'-- Up-to-date: /home/alextempel/code/ui/User-Interface/ros2_ws/install/rtos/share/rtos/local_setup.zsh\n'}
+[10.052275] (rtos) StdoutLine: {'line': b'-- Up-to-date: /home/alextempel/code/ui/User-Interface/ros2_ws/install/rtos/share/rtos/local_setup.dsv\n'}
+[10.052317] (rtos) StdoutLine: {'line': b'-- Installing: /home/alextempel/code/ui/User-Interface/ros2_ws/install/rtos/share/rtos/package.dsv\n'}
+[10.053339] (rtos) StdoutLine: {'line': b'-- Up-to-date: /home/alextempel/code/ui/User-Interface/ros2_ws/install/rtos/share/ament_index/resource_index/packages/rtos\n'}
+[10.053627] (rtos) StdoutLine: {'line': b'-- Up-to-date: /home/alextempel/code/ui/User-Interface/ros2_ws/install/rtos/share/rtos/cmake/rtosConfig.cmake\n'}
+[10.053789] (rtos) StdoutLine: {'line': b'-- Up-to-date: /home/alextempel/code/ui/User-Interface/ros2_ws/install/rtos/share/rtos/cmake/rtosConfig-version.cmake\n'}
+[10.053912] (rtos) StdoutLine: {'line': b'-- Up-to-date: /home/alextempel/code/ui/User-Interface/ros2_ws/install/rtos/share/rtos/package.xml\n'}
+[10.055381] (rtos) CommandEnded: {'returncode': 0}
+[10.068808] (rtos) JobEnded: {'identifier': 'rtos', 'rc': 0}
+[10.071139] (-) EventReactorShutdown: {}
